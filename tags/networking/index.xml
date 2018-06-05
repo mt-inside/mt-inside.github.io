@@ -17,8 +17,7 @@
       <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mt165.co.uk/speech/life-of-a-packet/</guid>
-      <description>Recording TODO
-Slides TODO</description>
+      <description>Abstract Istio is a service mesh for Kubernetes that offers advanced networking features. It provides intelligent routing, resiliency, and security features, so that service authors don&amp;rsquo;t have to keep re-implementing them. Istio is rapidly taking off and there are great introductory talks everywhere. However in this session, we will explore precisely how it does what it does, following one brave little packet in from the internet and back out again. This will give a great insight into Istio&amp;rsquo;s full power, and its fascinating architecture.</description>
     </item>
     
     <item>
@@ -27,9 +26,7 @@ Slides TODO</description>
       <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mt165.co.uk/speech/do-you-need-a-service-mesh/</guid>
-      <description>Recording TODO
-Slides TODO
-Feedback Tweets etc</description>
+      <description>Abstract The network is back. But is it useful? We&amp;rsquo;ll explore what a service mesh is and what they can do for your microservice web backends. Are the claims of observability, resiliency, and WAF features real? Are they useful during development, production, or both? Using pictures and demos, we&amp;rsquo;ll find out!</description>
     </item>
     
     <item>
