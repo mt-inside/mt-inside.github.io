@@ -6,10 +6,31 @@
     <description>Recent content in Networking on Matt Turner&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 23 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.mt165.co.uk/tags/networking/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Life of a Packet through Istio</title>
+      <link>https://blog.mt165.co.uk/speech/life-of-a-packet/</link>
+      <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mt165.co.uk/speech/life-of-a-packet/</guid>
+      <description>Recording TODO
+Slides TODO</description>
+    </item>
+    
+    <item>
+      <title>Do you need a Service Mesh?</title>
+      <link>https://blog.mt165.co.uk/speech/do-you-need-a-service-mesh/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mt165.co.uk/speech/do-you-need-a-service-mesh/</guid>
+      <description>Recording TODO
+Slides TODO
+Feedback Tweets etc</description>
+    </item>
     
     <item>
       <title>The Life of a Packet Through Istio</title>
@@ -17,9 +38,8 @@
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mt165.co.uk/speech/life-packet-istio/</guid>
-      <description>Recording None
-Slides TODO
-Feedback TODO</description>
+      <description>Recording None known
+Slides Coming.</description>
     </item>
     
   </channel>
