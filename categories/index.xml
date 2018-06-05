@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Matt Turner&#39;s Blog</title>
+    <link>https://blog.mt165.co.uk/categories/</link>
+    <description>Recent content in Categories on Matt Turner&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    
+	<atom:link href="https://blog.mt165.co.uk/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cloud</title>
+      <link>https://blog.mt165.co.uk/categories/cloud/</link>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mt165.co.uk/categories/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Howto</title>
+      <link>https://blog.mt165.co.uk/categories/howto/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mt165.co.uk/categories/howto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IT</title>
+      <link>https://blog.mt165.co.uk/categories/it/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mt165.co.uk/categories/it/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Istio</title>
+      <link>https://blog.mt165.co.uk/categories/istio/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mt165.co.uk/categories/istio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philosophising</title>
+      <link>https://blog.mt165.co.uk/categories/philosophising/</link>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mt165.co.uk/categories/philosophising/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/post/windows-xps/</loc>
+    <lastmod>2018-03-30T03:21:28+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/post/ubuntu-xps/</loc>
+    <lastmod>2018-03-30T03:21:28+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/post/latching-mutations-gitops/</loc>
+    <lastmod>2018-03-30T03:31:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/speech/life-packet-istio/</loc>
+    <lastmod>2018-03-30T03:31:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/post/spectrum-of-mutability/</loc>
+    <lastmod>2018-03-30T03:31:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/post/immutable-definitions/</loc>
+    <lastmod>2018-03-30T03:31:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/post/</loc>
+    <lastmod>2018-06-02T17:35:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/speech/</loc>
+    <lastmod>2018-06-02T17:35:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/tags/cloud/</loc>
+    <lastmod>2018-03-30T03:31:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/categories/cloud/</loc>
+    <lastmod>2018-03-30T03:31:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/tags/dell-xps/</loc>
+    <lastmod>2018-03-30T03:21:28+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/categories/howto/</loc>
+    <lastmod>2018-03-30T03:21:28+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/categories/it/</loc>
+    <lastmod>2018-03-30T03:21:28+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/tags/immutable-architecture/</loc>
+    <lastmod>2018-03-30T03:31:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/tags/infrastructure/</loc>
+    <lastmod>2018-03-30T03:31:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/tags/istio/</loc>
+    <lastmod>2018-03-30T03:31:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/categories/istio/</loc>
+    <lastmod>2018-03-30T03:31:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/tags/linux/</loc>
+    <lastmod>2018-03-30T03:21:28+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/</loc>
+    <lastmod>2018-03-30T03:21:28+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/tags/networking/</loc>
+    <lastmod>2018-03-30T03:31:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/categories/philosophising/</loc>
+    <lastmod>2018-03-30T03:31:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/tags/service-mesh/</loc>
+    <lastmod>2018-03-30T03:31:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/tags/</loc>
+    <lastmod>2018-03-30T03:31:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/tags/ubuntu/</loc>
+    <lastmod>2018-03-30T03:21:28+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/tags/windows/</loc>
+    <lastmod>2018-03-30T03:21:28+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mt165.co.uk/tags/windows-10/</loc>
+    <lastmod>2018-03-30T03:21:28+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
