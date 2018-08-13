@@ -14,19 +14,19 @@
     
     <item>
       <title>The Life of a Packet Through Istio - Deepdive</title>
-      <link>https://mt165.co.uk/speech/istio-deepdive-devoxx/</link>
+      <link>https://mt165.co.uk/speech/life-of-a-packet-istio-devoxx/</link>
       <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mt165.co.uk/speech/istio-deepdive-devoxx/</guid>
+      <guid>https://mt165.co.uk/speech/life-of-a-packet-istio-devoxx/</guid>
       <description>Abstract TODO</description>
     </item>
     
     <item>
-      <title>The Life of a Packet through Istio</title>
-      <link>https://mt165.co.uk/speech/life-of-a-packet/</link>
+      <title>The Life of a Packet Through Istio</title>
+      <link>https://mt165.co.uk/speech/life-of-a-packet-istio-cloud-native/</link>
       <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mt165.co.uk/speech/life-of-a-packet/</guid>
+      <guid>https://mt165.co.uk/speech/life-of-a-packet-istio-cloud-native/</guid>
       <description>Abstract Istio is a service mesh for Kubernetes that offers advanced networking features. It provides intelligent routing, resiliency, and security features, so that service authors don&amp;rsquo;t have to keep re-implementing them. Istio is rapidly taking off and there are great introductory talks everywhere. However in this session, we will explore precisely how it does what it does, following one brave little packet in from the internet and back out again.</description>
     </item>
     
@@ -81,10 +81,10 @@
     
     <item>
       <title>The Life of a Packet Through Istio</title>
-      <link>https://mt165.co.uk/speech/life-packet-istio/</link>
+      <link>https://mt165.co.uk/speech/life-of-a-packet-istio-isito-london/</link>
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://mt165.co.uk/speech/life-packet-istio/</guid>
+      <guid>https://mt165.co.uk/speech/life-of-a-packet-istio-isito-london/</guid>
       <description></description>
     </item>
     
