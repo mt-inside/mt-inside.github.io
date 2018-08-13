@@ -1,42 +1,96 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Matt Turner&#39;s Blog</title>
-    <link>https://blog.mt165.co.uk/speech/</link>
-    <description>Recent content on Matt Turner&#39;s Blog</description>
+    <title>Speeches on Matt Turner</title>
+    <link>https://mt165.co.uk/speech/</link>
+    <description>Recent content in Speeches on Matt Turner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 02 Jun 2018 17:35:21 +0100</lastBuildDate>
+    <copyright>Copyright © Matt Turner 2018. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 12 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.mt165.co.uk/speech/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mt165.co.uk/speech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>The Life of a Packet Through Istio - Deepdive</title>
+      <link>https://mt165.co.uk/speech/istio-deepdive-devoxx/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/istio-deepdive-devoxx/</guid>
+      <description>Abstract TODO</description>
+    </item>
+    
+    <item>
       <title>The Life of a Packet through Istio</title>
-      <link>https://blog.mt165.co.uk/speech/life-of-a-packet/</link>
+      <link>https://mt165.co.uk/speech/life-of-a-packet/</link>
       <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.mt165.co.uk/speech/life-of-a-packet/</guid>
-      <description>Abstract Istio is a service mesh for Kubernetes that offers advanced networking features. It provides intelligent routing, resiliency, and security features, so that service authors don&amp;rsquo;t have to keep re-implementing them. Istio is rapidly taking off and there are great introductory talks everywhere. However in this session, we will explore precisely how it does what it does, following one brave little packet in from the internet and back out again. This will give a great insight into Istio&amp;rsquo;s full power, and its fascinating architecture.</description>
+      <guid>https://mt165.co.uk/speech/life-of-a-packet/</guid>
+      <description>Abstract Istio is a service mesh for Kubernetes that offers advanced networking features. It provides intelligent routing, resiliency, and security features, so that service authors don&amp;rsquo;t have to keep re-implementing them. Istio is rapidly taking off and there are great introductory talks everywhere. However in this session, we will explore precisely how it does what it does, following one brave little packet in from the internet and back out again.</description>
+    </item>
+    
+    <item>
+      <title>Bash is Testing</title>
+      <link>https://mt165.co.uk/speech/bash-is-testing/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/bash-is-testing/</guid>
+      <description>Abstract Everyone says they&amp;rsquo;re coding in Rust these days, but they&amp;rsquo;re not. Every system has some bash-flavoured blu-tack hiding in the corners. But how well do you know this arcane, abstruse, annoying programming language? In 5 minutes, I&amp;rsquo;ll educate, entertain, and inform you about a core part of the bash language - the simple conditional statement. This irreverent and funny talk, while yes, insulting bash quite a lot, will hopefully provide a whole bunch of &amp;ldquo;oh, that&amp;rsquo;s why it does that&amp;rdquo; moments too.</description>
     </item>
     
     <item>
       <title>Do you need a Service Mesh?</title>
-      <link>https://blog.mt165.co.uk/speech/do-you-need-a-service-mesh/</link>
+      <link>https://mt165.co.uk/speech/do-you-need-a-service-mesh/</link>
       <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.mt165.co.uk/speech/do-you-need-a-service-mesh/</guid>
+      <guid>https://mt165.co.uk/speech/do-you-need-a-service-mesh/</guid>
       <description>Abstract The network is back. But is it useful? We&amp;rsquo;ll explore what a service mesh is and what they can do for your microservice web backends. Are the claims of observability, resiliency, and WAF features real? Are they useful during development, production, or both? Using pictures and demos, we&amp;rsquo;ll find out!</description>
     </item>
     
     <item>
       <title>The Life of a Packet Through Istio</title>
-      <link>https://blog.mt165.co.uk/speech/life-packet-istio/</link>
+      <link>https://mt165.co.uk/speech/life-packet-istio/</link>
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.mt165.co.uk/speech/life-packet-istio/</guid>
-      <description>Recording None known
-Slides Coming.</description>
+      <guid>https://mt165.co.uk/speech/life-packet-istio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fluency</title>
+      <link>https://mt165.co.uk/speech/fluency/</link>
+      <pubDate>Thu, 26 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/fluency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Introduction to Userspace Filesystem Development</title>
+      <link>https://mt165.co.uk/speech/intro-to-fuse/</link>
+      <pubDate>Wed, 25 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/intro-to-fuse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Staying Agile Into Maturity</title>
+      <link>https://mt165.co.uk/speech/staying-agile-into-maturity/</link>
+      <pubDate>Thu, 29 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/staying-agile-into-maturity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating A Brand New Product Using Scrum And Agile Techniques</title>
+      <link>https://mt165.co.uk/speech/creating-new-product-scrum/</link>
+      <pubDate>Fri, 15 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/creating-new-product-scrum/</guid>
+      <description></description>
     </item>
     
   </channel>

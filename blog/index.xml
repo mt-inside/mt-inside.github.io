@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Matt Turner</title>
+    <link>https://mt165.co.uk/blog/</link>
+    <description>Recent content in Blogs on Matt Turner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>Copyright © Matt Turner 2018. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 25 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mt165.co.uk/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installing Windows 10 on a Dell XPS 15 (9560) using an external disk</title>
+      <link>https://mt165.co.uk/blog/windows-xps/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/blog/windows-xps/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;tl;dr: use WinToUSB. It Just Works TM.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Installing Ubuntu on a Dell XPS 15 (9560)</title>
+      <link>https://mt165.co.uk/blog/ubuntu-xps/</link>
+      <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/blog/ubuntu-xps/</guid>
+      <description>&lt;p&gt;In this post I&amp;rsquo;ll details the steps I (eventually) worked out to install Ubuntu 18.04 on a late 2017 Dell XPS 15&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Latching Mutations with GitOps</title>
+      <link>https://mt165.co.uk/blog/latching-mutations-gitops/</link>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/blog/latching-mutations-gitops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Spectrum of Mutability</title>
+      <link>https://mt165.co.uk/blog/spectrum-of-mutability/</link>
+      <pubDate>Wed, 11 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/blog/spectrum-of-mutability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Immutable Definitions</title>
+      <link>https://mt165.co.uk/blog/immutable-definitions/</link>
+      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/blog/immutable-definitions/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

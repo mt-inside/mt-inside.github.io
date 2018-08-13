@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Serieses on Matt Turner</title>
+    <link>https://mt165.co.uk/serieses/</link>
+    <description>Recent content in Serieses on Matt Turner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>Copyright © Matt Turner 2018. All rights reserved.</copyright>
+    
+	<atom:link href="https://mt165.co.uk/serieses/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
