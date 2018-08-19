@@ -45,6 +45,11 @@ a i {
   -o-transition: all 500ms;
   transition: all 500ms; }
 
+/* Title */
+section#about {
+  padding-top: 96px;
+  padding-bottom: 60px; }
+
 /* == Blog == */
 .post {
   max-width: 700px;
