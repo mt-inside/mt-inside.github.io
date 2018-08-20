@@ -25,8 +25,8 @@ body.home {
 .container {
   max-width: 960px; }
 
-.card-deck .card {
-  min-width: 220px; }
+.card-title {
+  font-family: -apple-system; }
 
 /* == Header == */
 .nav .nav-link.active {
@@ -97,7 +97,7 @@ pre code {
 .floating-header {
   visibility: hidden;
   z-index: 998;
-  padding-top: 80px;
+  padding-top: 64px;
   -webkit-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
   -o-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
   transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
