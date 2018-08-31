@@ -18,7 +18,7 @@
       <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/life-of-a-packet-istio-devoxx/</guid>
-      <description>Abstract TODO</description>
+      <description>Abstract Devoxx Link</description>
     </item>
     
     <item>
@@ -46,6 +46,15 @@
       
       <guid>https://mt165.co.uk/speech/do-you-need-a-service-mesh/</guid>
       <description>Abstract The network is back. But is it useful? We&amp;rsquo;ll explore what a service mesh is and what they can do for your microservice web backends. Are the claims of observability, resiliency, and WAF features real? Are they useful during development, production, or both? Using pictures and demos, we&amp;rsquo;ll find out!</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Istio on Amazon EKS</title>
+      <link>https://mt165.co.uk/blog/getting-started-istio-eks/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/blog/getting-started-istio-eks/</guid>
+      <description></description>
     </item>
     
     <item>
