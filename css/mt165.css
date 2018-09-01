@@ -7982,12 +7982,14 @@ body.home {
   background-position: center top;
   background-repeat: no-repeat;
   background-color: #ffffff; }
-  body.home #content {
-    -webkit-border-radius: 8px;
-            border-radius: 8px; }
+  @media (min-width: 768px) {
+    body.home section {
+      -webkit-border-radius: 8px;
+              border-radius: 8px; } }
 
 .container {
-  max-width: 960px; }
+  max-width: 960px;
+  padding: 0px; }
 
 .card-title {
   font-family: -apple-system; }
@@ -8010,15 +8012,16 @@ a i {
   transition: all 500ms; }
 
 /* Title */
-section#about {
-  padding-top: 96px;
-  padding-bottom: 60px; }
+main {
+  padding-top: 96px; }
 
 /* == Blog == */
 .post {
   max-width: 700px;
-  /* font-family: 'Open Sans', sans-serif; */
-  line-height: 1.8; }
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color: #111; }
   .post p {
     text-align: justify; }
 

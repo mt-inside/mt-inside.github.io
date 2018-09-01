@@ -70,6 +70,7 @@
 </head>
     
     <body class="home" data-spy="scroll" data-target="#navbar" data-offset="75">
+        <div class="container">
 
 
 <nav id="navbar" class="navbar navbar-light navbar-expand-md fixed-top">
@@ -114,19 +115,19 @@
         evnt.preventDefault()
     }
 </script>
-<section id="about" class="mx-auto text-center">
-    <div class="container text-dark">
+<main>
+        <section id="about" class="py-5 mx-auto text-center">
+    <div class="text-dark">
         <h1 class="display-2 mb-0"><strong>Matt Turner</strong></h1>
         <h2 class="text-muted"><strong>Tech, mostly.</strong></p>
     </div>
 </section>
 
 
-        <section id="blog" class="mb-5">
-    <div id="content" class="container px-5 py-5 pt-md-5 pb-md-5 mx-auto shadow-lg bg-white">
-	<h2 class="display-4">Blog</h2>
-	
-                
+        <section id="blog" class="my-5 mx-auto px-3 py-3 shadow-lg bg-white">
+    <h2 class="display-4 px-5 pt-5">Blog</h2>
+    
+            
 	<div class="card border-light">
 	    <div class="row no-gutters">
 		<div class="col-sm-3">
@@ -148,9 +149,9 @@
 	</div>
         
 
-	<hr />
-	
-                
+    <hr />
+    
+            
 	<div class="card border-light">
 	    <div class="row no-gutters">
 		<div class="col-sm-3">
@@ -173,9 +174,9 @@
 	</div>
         
 
-	<hr />
-	
-                
+    <hr />
+    
+            
 	<div class="card border-light">
 	    <div class="row no-gutters">
 		<div class="col-sm-3">
@@ -198,9 +199,9 @@
 	</div>
         
 
-	<hr />
-	
-                
+    <hr />
+    
+            
 	<div class="card border-light">
 	    <div class="row no-gutters">
 		<div class="col-sm-3">
@@ -222,11 +223,11 @@
 	</div>
         
 
-	<hr />
-	
-	<div id="blog-rest" class="collapse">
-	    
-                    
+    <hr />
+    
+    <div id="blog-rest" class="collapse">
+        
+                
 	<div class="card border-light">
 	    <div class="row no-gutters">
 		<div class="col-sm-3">
@@ -248,9 +249,9 @@
 	</div>
         
 
-	    <hr />
-	    
-                    
+        <hr />
+        
+                
 	<div class="card border-light">
 	    <div class="row no-gutters">
 		<div class="col-sm-3">
@@ -272,148 +273,142 @@
 	</div>
         
 
-	    <hr />
-	    
-	</div>
-
-	<p class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-	<button type="button" class="btn btn-primary" data-target="#blog-rest" data-toggle="collapse">See More</button>
-	</p>
+        <hr />
+        
     </div>
+
+    <p class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <button type="button" class="btn btn-primary" data-target="#blog-rest" data-toggle="collapse">See More</button>
+    </p>
 </section>
 
 
-        <section id="speaking" class="my-5">
-    <div id="content" class="container px-5 py-5 pt-md-5 pb-md-5 mx-auto shadow-lg bg-white">
-        <h2 class="display-4">Speaking</h2>
+        <section id="speaking" class="my-5 mx-auto px-3 py-3 shadow-lg bg-white">
+    <h2 class="display-4 px-5 pt-5">Speaking</h2>
+    
+    <h3 class="text-center mt-5 mb-3"><strong>Upcoming</strong></h3>
+    
+    <a href="https://mt165.co.uk/speech/life-of-a-packet-istio-devoxx/" class="list-group-item list-group-item-action flex-column align-items-start">
+        <span class="text-muted text-uppercase mb-5"><small>12 November 2018 // Devoxx, Antwerp Belgium</small></span>
+        <h4 class="card-title"><strong>The Life of a Packet Through Istio - Deepdive</strong></h4>
+        <p class="card-text">
         
-        <h3 class="text-center mt-5 mb-3"><strong>Upcoming</strong></h3>
+        A 3-hour deep-dive tutorial on Istio with advanced use-cases and details of its internals
         
-        <a href="https://mt165.co.uk/speech/life-of-a-packet-istio-devoxx/" class="list-group-item list-group-item-action flex-column align-items-start">
-            <span class="text-muted text-uppercase mb-5"><small>12 November 2018 // Devoxx, Antwerp Belgium</small></span>
-            <h4 class="card-title"><strong>The Life of a Packet Through Istio - Deepdive</strong></h4>
-            <p class="card-text">
-            
-            A 3-hour deep-dive tutorial on Istio with advanced use-cases and details of its internals
-            
-            </p>
-        </a>
-        
-        <a href="https://mt165.co.uk/speech/life-of-a-packet-istio-cloud-native/" class="list-group-item list-group-item-action flex-column align-items-start">
-            <span class="text-muted text-uppercase mb-5"><small>26 September 2018 // Clound Native Conference, London UK</small></span>
-            <h4 class="card-title"><strong>The Life of a Packet Through Istio</strong></h4>
-            <p class="card-text">
-            
-            An in-depth exploration of the workings of Istio by following one packet through the whole mesh
-            
-            </p>
-        </a>
-        
-        <a href="https://mt165.co.uk/speech/bash-is-testing/" class="list-group-item list-group-item-action flex-column align-items-start">
-            <span class="text-muted text-uppercase mb-5"><small>20 September 2018 // DevOps Days, London UK</small></span>
-            <h4 class="card-title"><strong>Bash is Testing</strong></h4>
-            <p class="card-text">
-            
-            An irreverent look at conditionals in Bash
-            
-            </p>
-        </a>
-        
-        <a href="https://mt165.co.uk/speech/do-you-need-a-service-mesh/" class="list-group-item list-group-item-action flex-column align-items-start">
-            <span class="text-muted text-uppercase mb-5"><small>3 September 2018 // FullStack Fest, Barcelona Spain</small></span>
-            <h4 class="card-title"><strong>Do you need a Service Mesh?</strong></h4>
-            <p class="card-text">
-            
-            A high-level overview and critique of service meshes
-            
-            </p>
-        </a>
-        
-        <h3 class="text-center mt-5 mb-3"><strong>Delivered</strong></h3>
-        
-        <a href="https://mt165.co.uk/speech/life-of-a-packet-istio-isito-london/" class="list-group-item list-group-item-action flex-column align-items-start">
-            <span class="text-muted text-uppercase mb-5"><small>23 October 2017 // Istio London Meetup, Skyscanner London UK</small></span>
-            <h4 class="card-title"><strong>The Life of a Packet Through Istio</strong></h4>
-            <p class="card-text">
-            
-            An in-depth exploration of the workings of Istio by following one packet through the whole mesh
-            
-            </p>
-        </a>
-        
-        <a href="https://mt165.co.uk/speech/fluency/" class="list-group-item list-group-item-action flex-column align-items-start">
-            <span class="text-muted text-uppercase mb-5"><small>26 April 2012 // ACCU Conference, Oxford UK</small></span>
-            <h4 class="card-title"><strong>Fluency</strong></h4>
-            <p class="card-text">
-            
-            A lightning talk on why coders should write code not poetry.
-            
-            </p>
-        </a>
-        
-        <a href="https://mt165.co.uk/speech/intro-to-fuse/" class="list-group-item list-group-item-action flex-column align-items-start">
-            <span class="text-muted text-uppercase mb-5"><small>25 April 2012 // ACCU Conference, Oxford UK</small></span>
-            <h4 class="card-title"><strong>An Introduction to Userspace Filesystem Development</strong></h4>
-            <p class="card-text">
-            
-            An in-depth introduction to writing userspace filesystem using FUSE
-            
-            </p>
-        </a>
-        
-        <a href="https://mt165.co.uk/speech/staying-agile-into-maturity/" class="list-group-item list-group-item-action flex-column align-items-start">
-            <span class="text-muted text-uppercase mb-5"><small>29 March 2012 // DevWeek, London UK</small></span>
-            <h4 class="card-title"><strong>Staying Agile Into Maturity</strong></h4>
-            <p class="card-text">
-            
-            A discussion of how to keep a software product Agile and responsive to customer needs, even with a mature codebase
-            
-            </p>
-        </a>
-        
-        <div id="speaking-rest" class="collapse">
-            
-            <a href="https://mt165.co.uk/speech/creating-new-product-scrum/" class="list-group-item list-group-item-action flex-column align-items-start">
-                <span class="text-muted text-uppercase mb-5"><small>15 April 2011 // ACCU Conference, Oxford UK</small></span>
-                <h4 class="card-title"><strong>Creating A Brand New Product Using Scrum And Agile Techniques</strong></h4>
-                <p class="card-text">
-                
-                An exploration of modern Scrum and Agile methods applied to a greenfield software project
-                
-                </p>
-            </a>
-            
-        </div>
-
-        <p class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-        <button type="button" class="btn btn-primary" data-target="#speaking-rest" data-toggle="collapse">See More</button>
         </p>
+    </a>
+    
+    <a href="https://mt165.co.uk/speech/life-of-a-packet-istio-cloud-native/" class="list-group-item list-group-item-action flex-column align-items-start">
+        <span class="text-muted text-uppercase mb-5"><small>26 September 2018 // Clound Native Conference, London UK</small></span>
+        <h4 class="card-title"><strong>The Life of a Packet Through Istio</strong></h4>
+        <p class="card-text">
+        
+        An in-depth exploration of the workings of Istio by following one packet through the whole mesh
+        
+        </p>
+    </a>
+    
+    <a href="https://mt165.co.uk/speech/bash-is-testing/" class="list-group-item list-group-item-action flex-column align-items-start">
+        <span class="text-muted text-uppercase mb-5"><small>20 September 2018 // DevOps Days, London UK</small></span>
+        <h4 class="card-title"><strong>Bash is Testing</strong></h4>
+        <p class="card-text">
+        
+        An irreverent look at conditionals in Bash
+        
+        </p>
+    </a>
+    
+    <a href="https://mt165.co.uk/speech/do-you-need-a-service-mesh/" class="list-group-item list-group-item-action flex-column align-items-start">
+        <span class="text-muted text-uppercase mb-5"><small>3 September 2018 // FullStack Fest, Barcelona Spain</small></span>
+        <h4 class="card-title"><strong>Do you need a Service Mesh?</strong></h4>
+        <p class="card-text">
+        
+        A high-level overview and critique of service meshes
+        
+        </p>
+    </a>
+    
+    <h3 class="text-center mt-5 mb-3"><strong>Delivered</strong></h3>
+    
+    <a href="https://mt165.co.uk/speech/life-of-a-packet-istio-isito-london/" class="list-group-item list-group-item-action flex-column align-items-start">
+        <span class="text-muted text-uppercase mb-5"><small>23 October 2017 // Istio London Meetup, Skyscanner London UK</small></span>
+        <h4 class="card-title"><strong>The Life of a Packet Through Istio</strong></h4>
+        <p class="card-text">
+        
+        An in-depth exploration of the workings of Istio by following one packet through the whole mesh
+        
+        </p>
+    </a>
+    
+    <a href="https://mt165.co.uk/speech/fluency/" class="list-group-item list-group-item-action flex-column align-items-start">
+        <span class="text-muted text-uppercase mb-5"><small>26 April 2012 // ACCU Conference, Oxford UK</small></span>
+        <h4 class="card-title"><strong>Fluency</strong></h4>
+        <p class="card-text">
+        
+        A lightning talk on why coders should write code not poetry.
+        
+        </p>
+    </a>
+    
+    <a href="https://mt165.co.uk/speech/intro-to-fuse/" class="list-group-item list-group-item-action flex-column align-items-start">
+        <span class="text-muted text-uppercase mb-5"><small>25 April 2012 // ACCU Conference, Oxford UK</small></span>
+        <h4 class="card-title"><strong>An Introduction to Userspace Filesystem Development</strong></h4>
+        <p class="card-text">
+        
+        An in-depth introduction to writing userspace filesystem using FUSE
+        
+        </p>
+    </a>
+    
+    <a href="https://mt165.co.uk/speech/staying-agile-into-maturity/" class="list-group-item list-group-item-action flex-column align-items-start">
+        <span class="text-muted text-uppercase mb-5"><small>29 March 2012 // DevWeek, London UK</small></span>
+        <h4 class="card-title"><strong>Staying Agile Into Maturity</strong></h4>
+        <p class="card-text">
+        
+        A discussion of how to keep a software product Agile and responsive to customer needs, even with a mature codebase
+        
+        </p>
+    </a>
+    
+    <div id="speaking-rest" class="collapse">
+        
+        <a href="https://mt165.co.uk/speech/creating-new-product-scrum/" class="list-group-item list-group-item-action flex-column align-items-start">
+            <span class="text-muted text-uppercase mb-5"><small>15 April 2011 // ACCU Conference, Oxford UK</small></span>
+            <h4 class="card-title"><strong>Creating A Brand New Product Using Scrum And Agile Techniques</strong></h4>
+            <p class="card-text">
+            
+            An exploration of modern Scrum and Agile methods applied to a greenfield software project
+            
+            </p>
+        </a>
+        
     </div>
+
+    <p class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <button type="button" class="btn btn-primary" data-target="#speaking-rest" data-toggle="collapse">See More</button>
+    </p>
 </section>
 
 
-        <section id="projects" class="my-5">
-    <div id="content" class="container px-5 py-5 pt-md-5 pb-md-5 mx-auto shadow-lg bg-white">
-        <h2 class="display-4">Projects</h2>
-        <p>I once tuned a Nissan S15 Silvia to 330hp and started fitting a heads-up-display driven by an RPi connected to the engine debug port. But then I drove too fast and my engine melted. Since then, who really has the time??</p>
-        <div class="list-group">
-            
-        </div>
+        <section id="projects" class="my-5 mx-auto px-3 py-3 shadow-lg bg-white">
+    <h2 class="display-4 px-5 pt-5">Projects</h2>
+    <p class="px-5">I once tuned a Nissan S15 Silvia to 330hp and started fitting a heads-up-display driven by an RPi connected to the engine debug port. But then I drove too fast and my engine melted. Since then, who really has the time??</p>
+    <div class="list-group">
+        
     </div>
 </section>
-<div class="container">
-    <footer class="pt-4 my-md-5 pt-md-5 border-top">
-        <div class="row">
-            
-            
+
+        </main><footer class="my-5 pt-3 border-top">
+    <div class="row">
+        
+        
+    </div>
+    <div class="row">
+        <div class="col-12 col-md text-center">
+            <small class="d-block mb-3 text-muted">Copyright © Matt Turner 2018. All rights reserved.</small>
         </div>
-        <div class="row">
-            <div class="col-12 col-md text-center">
-                <small class="d-block mb-3 text-muted">Copyright © Matt Turner 2018. All rights reserved.</small>
-            </div>
-        </div>
-    </footer>
-</div>
+    </div>
+</footer>
 
 
 
@@ -465,5 +460,6 @@
                 update();
             });
         </script>
+        </div>
     </body>
 </html>
