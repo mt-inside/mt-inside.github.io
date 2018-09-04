@@ -7992,7 +7992,7 @@ body.home {
   padding: 0px; }
 
 .card-title {
-  font-family: -apple-system; }
+  font-family: -apple-system, 'Helvetica', sans-serif; }
 
 /* == Header == */
 .nav .nav-link.active {
