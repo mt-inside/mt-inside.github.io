@@ -18,7 +18,8 @@
       <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/life-of-a-packet-istio-devoxx/</guid>
-      <description>Abstract Devoxx Link</description>
+      <description>Conference Link
+Abstract Istio is a service mesh for Kubernetes that offers advanced networking features. It provides intelligent routing, resiliency, and security features, so that service authors don&amp;rsquo;t have to keep re-implementing them. Istio is rapidly taking off and there are great introductory talks everywhere. However in this session, we will dive deep to explore precisely how it does what it does, following one brave little packet in from the internet and back out again.</description>
     </item>
     
     <item>
@@ -27,7 +28,8 @@
       <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/life-of-a-packet-istio-cloud-native/</guid>
-      <description>Abstract Istio is a service mesh for Kubernetes that offers advanced networking features. It provides intelligent routing, resiliency, and security features, so that service authors don&amp;rsquo;t have to keep re-implementing them. Istio is rapidly taking off and there are great introductory talks everywhere. However in this session, we will explore precisely how it does what it does, following one brave little packet in from the internet and back out again.</description>
+      <description>Conference Link
+Abstract Istio is a service mesh for Kubernetes that offers advanced networking features. It provides intelligent routing, resiliency, and security features, so that service authors don&amp;rsquo;t have to keep re-implementing them. Istio is rapidly taking off and there are great introductory talks everywhere. However in this session, we will explore precisely how it does what it does, following one brave little packet in from the internet and back out again.</description>
     </item>
     
     <item>
@@ -36,7 +38,8 @@
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/bash-is-testing/</guid>
-      <description>Abstract Everyone says they&amp;rsquo;re coding in Rust these days, but they&amp;rsquo;re not. Every system has some bash-flavoured blu-tack hiding in the corners. But how well do you know this arcane, abstruse, annoying programming language? In 5 minutes, I&amp;rsquo;ll educate, entertain, and inform you about a core part of the bash language - the simple conditional statement. This irreverent and funny talk, while yes, insulting bash quite a lot, will hopefully provide a whole bunch of &amp;ldquo;oh, that&amp;rsquo;s why it does that&amp;rdquo; moments too.</description>
+      <description>Conference Link
+Abstract Everyone says they&amp;rsquo;re coding in Rust these days, but they&amp;rsquo;re not. Every system has some bash-flavoured blu-tack hiding in the corners. But how well do you know this arcane, abstruse, annoying programming language? In 5 minutes, I&amp;rsquo;ll educate, entertain, and inform you about a core part of the bash language - the simple conditional statement. This irreverent and funny talk, while yes, insulting bash quite a lot, will hopefully provide a whole bunch of &amp;ldquo;oh, that&amp;rsquo;s why it does that&amp;rdquo; moments too.</description>
     </item>
     
     <item>
@@ -45,7 +48,20 @@
       <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/do-you-need-a-service-mesh/</guid>
-      <description>Abstract The network is back. But is it useful? We&amp;rsquo;ll explore what a service mesh is and what they can do for your microservice web backends. Are the claims of observability, resiliency, and WAF features real? Are they useful during development, production, or both? Using pictures and demos, we&amp;rsquo;ll find out!</description>
+      <description>Conference Link
+Abstract The network is back. But is it useful?
+We&amp;rsquo;ll explore what a service mesh is and what they can do for your microservice web backends. Are the claims of observability, resiliency, and WAF features real? Are they useful during development, production, or both? Using pictures and demos, we&amp;rsquo;ll find out!
+This session will also briefly cover how a service mesh works, giving us a mental model with which to explore and evaluate after the talk.</description>
+    </item>
+    
+    <item>
+      <title>Istio on Kubernetes</title>
+      <link>https://mt165.co.uk/speech/istio-on-kubernetes/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/istio-on-kubernetes/</guid>
+      <description> A very brief introduction to running Istio on Kubernetes.
+Recording   </description>
     </item>
     
     <item>
@@ -54,7 +70,10 @@
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/life-of-a-packet-istio-isito-london/</guid>
-      <description></description>
+      <description> Meetup Link
+Abstract We will explore the architecture of Istio and Envoy from a packet-eye view, seeing the function and purpose of each component in the system.
+Recording None known.
+Slides  </description>
     </item>
     
     <item>
@@ -63,7 +82,9 @@
       <pubDate>Thu, 26 Apr 2012 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/fluency/</guid>
-      <description></description>
+      <description> Conference Link
+Abstract A lightning talk on why coders should write code not poetry.
+Recording   Slides  </description>
     </item>
     
     <item>
@@ -72,7 +93,9 @@
       <pubDate>Wed, 25 Apr 2012 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/intro-to-fuse/</guid>
-      <description></description>
+      <description>Conference Link
+Abstract Writing a filesystem can be very cool. Alas, writing a filesystem is also very hard. This is mainly because coding in the kernel is hard. Thankfully, most of the pain can be avoided by using a library like FUSE. Such libraries enable filesystems to be expressed as simple userspace programmes by taking care of all that tedious mucking about in kernel space.
+This talk will look at the Why and How of such filesystem development, using FUSE on UNIX.</description>
     </item>
     
     <item>
@@ -81,7 +104,7 @@
       <pubDate>Thu, 29 Mar 2012 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/staying-agile-into-maturity/</guid>
-      <description></description>
+      <description>Too old.</description>
     </item>
     
     <item>
@@ -90,7 +113,7 @@
       <pubDate>Fri, 15 Apr 2011 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/creating-new-product-scrum/</guid>
-      <description></description>
+      <description>Too old.</description>
     </item>
     
   </channel>
