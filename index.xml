@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Copyright © Matt Turner 2018. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 12 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mt165.co.uk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Istio - The Packet&#39;s-Eye View</title>
+      <link>https://mt165.co.uk/speech/istio-packets-eye-view-kubecon/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/istio-packets-eye-view-kubecon/</guid>
+      <description>Conference Link
+Abstract The Istio project reached 1.0 this summer, and is mature enough to have LTS releases. It&amp;rsquo;s getting a lot of attention, but in a lot of ways it&amp;rsquo;s still a mystery. You&amp;rsquo;ve probably read about it, you might have tried it, but do you really understand it? It promises advances routing, security, and resiliency, all for free! In this session I&amp;rsquo;ll present a practical introduction to the operation of Istio - what features it can bring to your environment.</description>
+    </item>
     
     <item>
       <title>The Life of a Packet Through Istio - Deepdive</title>
@@ -38,7 +48,7 @@ Abstract Istio is a service mesh for Kubernetes that offers advanced networking 
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/bash-is-testing/</guid>
-      <description>Conference Link
+      <description>Information Conference Link
 Abstract Everyone says they&amp;rsquo;re coding in Rust these days, but they&amp;rsquo;re not. Every system has some bash-flavoured blu-tack hiding in the corners. But how well do you know this arcane, abstruse, annoying programming language? In 5 minutes, I&amp;rsquo;ll educate, entertain, and inform you about a core part of the bash language - the simple conditional statement. This irreverent and funny talk, while yes, insulting bash quite a lot, will hopefully provide a whole bunch of &amp;ldquo;oh, that&amp;rsquo;s why it does that&amp;rdquo; moments too.</description>
     </item>
     
