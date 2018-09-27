@@ -15,21 +15,21 @@
 
 
 
-<meta property="og:url" content="https://mt165.co.uk/speech/staying-agile-into-maturity/" />
-<meta property="og:title" content="Staying Agile Into Maturity - Matt Turner" />
+<meta property="og:url" content="https://mt165.co.uk/speech/app-routing-istio-london/" />
+<meta property="og:title" content="Cross-cluster traffic routing, the right way - Matt Turner" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Matt Turner" />
 <meta property="og:type" content="article" />
-    <meta property="og:description" content="A discussion of how to keep a software product Agile and responsive to customer needs, even with a mature codebase"/>
-    <meta property="article:published_time" content="2017-10-23T00:00:00Z" />
+    <meta property="og:description" content="An explaination and demo of a better way to do cross-cluster trafic routing using Istio"/>
+    <meta property="article:published_time" content="2018-09-26T00:00:00Z" />
     
         <meta property="og:image" content="https://mt165.co.uk/TODO"/>
-<meta name="twitter:url" content="https://mt165.co.uk/speech/staying-agile-into-maturity/" />
-<meta name="twitter:title" content="Staying Agile Into Maturity - Matt Turner" />
+<meta name="twitter:url" content="https://mt165.co.uk/speech/app-routing-istio-london/" />
+<meta name="twitter:title" content="Cross-cluster traffic routing, the right way - Matt Turner" />
 <meta name="twitter:site" content="@mt165pro"/>
 
 <meta name="twitter:creator" content="@mt165pro"/>
-<meta name="twitter:description" content="A discussion of how to keep a software product Agile and responsive to customer needs, even with a mature codebase"/><meta name="twitter:card" content="summary"/>
+<meta name="twitter:description" content="An explaination and demo of a better way to do cross-cluster trafic routing using Istio"/><meta name="twitter:card" content="summary"/>
         <meta name="twitter:image" content="https://mt165.co.uk/TODO"/>
 
 
@@ -60,11 +60,11 @@
 
 
 
-<title>Matt Turner - Staying Agile Into Maturity</title>
+<title>Matt Turner - Cross-cluster traffic routing, the right way</title>
 
 
 
-<meta name="description" content="A discussion of how to keep a software product Agile and responsive to customer needs, even with a mature codebase">
+<meta name="description" content="An explaination and demo of a better way to do cross-cluster trafic routing using Istio">
 
 
 
@@ -112,13 +112,32 @@
 <main class="post mx-auto px-4 px-md-0">
     <div class="row">
         <div class="col">
-            <h1 class="post-title display-2">Staying Agile Into Maturity</h1>
+            <h1 class="post-title display-2">Cross-cluster traffic routing, the right way</h1>
             <div class="post-info-wrapper">
-                <p><strong>29 March 2012 // DevWeek, London UK</strong></p>
+                <p><strong>1 October 2018 // Istio London, Capital One London</strong></p>
             </div>
             <hr />
             
-            <p><p>Too old.</p>
+            <p>
+
+<h3 id="information">Information</h3>
+
+<p><a href="https://www.meetup.com/Istio-London/events/254443195/" target="_blank">Meetup Link</a></p>
+
+<h3 id="abstract">Abstract</h3>
+
+<p>Cross-cluster / VPC / Data Center connectivity is a huge problem. Current
+solutions are clunky and unreliable, using VPNs, DirectConnects, or sending
+everything out to the internet and back through the ingress layer. Some
+solutions have been attempted with Service Meshes, but these all involve a
+shared control plane, causing bit problems for latency, security, and
+reliability.</p>
+
+<p>In this talk, Matt will describe and demonstrate what he believes to be the
+correct approach; separate Service Meshes, with their own blast radii,
+sending traffic between each other as and when necessary. The configuration
+needed for this approach isn&rsquo;t free yet, but you&rsquo;ll be given a step-by-step
+guide to it, and shown tools that automate the pain away.</p>
 </p>
         </div>
     </div>

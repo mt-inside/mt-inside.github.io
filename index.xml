@@ -18,8 +18,9 @@
       <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/istio-packets-eye-view-kubecon/</guid>
-      <description>Conference Link
-Abstract The Istio project reached 1.0 this summer, and is mature enough to have LTS releases. It&amp;rsquo;s getting a lot of attention, but in a lot of ways it&amp;rsquo;s still a mystery. You&amp;rsquo;ve probably read about it, you might have tried it, but do you really understand it? It promises advances routing, security, and resiliency, all for free! In this session I&amp;rsquo;ll present a practical introduction to the operation of Istio - what features it can bring to your environment.</description>
+      <description>Information Conference Link
+🎉 congrats to all who had their #kubecon #cloudnativecon talks accepted and thank you to everyone who submitted a talk... ~13% acceptance rate!
+&amp;mdash; Chris Aniszczyk (@cra) September 24, 2018  Abstract The Istio project reached 1.0 this summer, and is mature enough to have LTS releases. It&amp;rsquo;s getting a lot of attention, but in a lot of ways it&amp;rsquo;s still a mystery. You&amp;rsquo;ve probably read about it, you might have tried it, but do you really understand it?</description>
     </item>
     
     <item>
@@ -30,6 +31,17 @@ Abstract The Istio project reached 1.0 this summer, and is mature enough to have
       <guid>https://mt165.co.uk/speech/life-of-a-packet-istio-devoxx/</guid>
       <description>Conference Link
 Abstract Istio is a service mesh for Kubernetes that offers advanced networking features. It provides intelligent routing, resiliency, and security features, so that service authors don&amp;rsquo;t have to keep re-implementing them. Istio is rapidly taking off and there are great introductory talks everywhere. However in this session, we will dive deep to explore precisely how it does what it does, following one brave little packet in from the internet and back out again.</description>
+    </item>
+    
+    <item>
+      <title>Cross-cluster traffic routing, the right way</title>
+      <link>https://mt165.co.uk/speech/app-routing-istio-london/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/app-routing-istio-london/</guid>
+      <description>Information Meetup Link
+Abstract Cross-cluster / VPC / Data Center connectivity is a huge problem. Current solutions are clunky and unreliable, using VPNs, DirectConnects, or sending everything out to the internet and back through the ingress layer. Some solutions have been attempted with Service Meshes, but these all involve a shared control plane, causing bit problems for latency, security, and reliability.
+In this talk, Matt will describe and demonstrate what he believes to be the correct approach; separate Service Meshes, with their own blast radii, sending traffic between each other as and when necessary.</description>
     </item>
     
     <item>
