@@ -34,17 +34,6 @@ Abstract Istio is a service mesh for Kubernetes that offers advanced networking 
     </item>
     
     <item>
-      <title>Using Istio to Build a Cloud Native Service Mesh</title>
-      <link>https://mt165.co.uk/speech/istio-workshop-goto-berlin/</link>
-      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://mt165.co.uk/speech/istio-workshop-goto-berlin/</guid>
-      <description>Information Conference Link
-Abstract In the adoption of cloud native technologies developers have found one of the greatest challenges is the integration and communication of Microservices. The challenges include service discovery, traffic management, fault tolerant messaging, end-to-end monitoring, dynamic routing for canary deployments and most importantly securing the communication channels.
-Istio solves these problems by providing a layer of infrastructure between the services and the network that allows the service communication to be controlled outside the application code.</description>
-    </item>
-    
-    <item>
       <title>Multi-Cluster Routing - A Multi-Mesh Approach</title>
       <link>https://mt165.co.uk/speech/app-routing-istio-london/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
