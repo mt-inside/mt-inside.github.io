@@ -24,12 +24,12 @@
     </item>
     
     <item>
-      <title>The Life of a Packet Through Istio - Deepdive</title>
+      <title>The Life of a Packet Through Istio - Deep dive</title>
       <link>https://mt165.co.uk/speech/life-of-a-packet-istio-devoxx/</link>
       <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/life-of-a-packet-istio-devoxx/</guid>
-      <description>Conference Link
+      <description>Information Conference Link
 Abstract Istio is a service mesh for Kubernetes that offers advanced networking features. It provides intelligent routing, resiliency, and security features, so that service authors don&amp;rsquo;t have to keep re-implementing them. Istio is rapidly taking off and there are great introductory talks everywhere. However in this session, we will dive deep to explore precisely how it does what it does, following one brave little packet in from the internet and back out again.</description>
     </item>
     
