@@ -34,10 +34,10 @@ We&amp;rsquo;ll see how the design fits the traditional three-tier model better 
     
     <item>
       <title>Istio - The Packet&#39;s-Eye View</title>
-      <link>https://mt165.co.uk/speech/istio-packets-eye-view-kubecon/</link>
-      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      <link>https://mt165.co.uk/speech/istio-packets-eye-view-kubecon-na-2018/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mt165.co.uk/speech/istio-packets-eye-view-kubecon/</guid>
+      <guid>https://mt165.co.uk/speech/istio-packets-eye-view-kubecon-na-2018/</guid>
       <description>Information Conference Link
 🎉 congrats to all who had their #kubecon #cloudnativecon talks accepted and thank you to everyone who submitted a talk... ~13% acceptance rate!
 &amp;mdash; Chris Aniszczyk (@cra) September 24, 2018  Abstract The Istio project reached 1.0 this summer, and is mature enough to have LTS releases. It&amp;rsquo;s getting a lot of attention, but in a lot of ways it&amp;rsquo;s still a mystery. You&amp;rsquo;ve probably read about it, you might have tried it, but do you really understand it?</description>
