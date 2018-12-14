@@ -1714,8 +1714,7 @@ pre {
   line-height: 1.5;
   color: #495057;
   background-color: #fff;
-  -webkit-background-clip: padding-box;
-          background-clip: padding-box;
+  background-clip: padding-box;
   border: 1px solid #ced4da;
   -webkit-border-radius: 0.25rem;
           border-radius: 0.25rem;
@@ -2696,8 +2695,7 @@ input[type="button"].btn-block {
   text-align: left;
   list-style: none;
   background-color: #fff;
-  -webkit-background-clip: padding-box;
-          background-clip: padding-box;
+  background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   -webkit-border-radius: 0.25rem;
           border-radius: 0.25rem; }
@@ -3957,8 +3955,7 @@ input[type="button"].btn-block {
   min-width: 0;
   word-wrap: break-word;
   background-color: #fff;
-  -webkit-background-clip: border-box;
-          background-clip: border-box;
+  background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   -webkit-border-radius: 0.25rem;
           border-radius: 0.25rem; }
@@ -4862,8 +4859,7 @@ button.close {
   width: 100%;
   pointer-events: auto;
   background-color: #fff;
-  -webkit-background-clip: padding-box;
-          background-clip: padding-box;
+  background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   -webkit-border-radius: 0.3rem;
           border-radius: 0.3rem;
@@ -5069,8 +5065,7 @@ button.close {
   font-size: 0.875rem;
   word-wrap: break-word;
   background-color: #fff;
-  -webkit-background-clip: padding-box;
-          background-clip: padding-box;
+  background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   -webkit-border-radius: 0.3rem;
           border-radius: 0.3rem; }
