@@ -18,7 +18,7 @@
       <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/20190522-why-is-istio-that-shape/</guid>
-      <description>Information Conference Link
+      <description>Session Information Conference Link
 Abstract Services Meshes are growing in relevance and adoption, as you can see from all the intro talks out there. But how do you build one of these things? Part network, part service discovery system, part logging adaptor, and 100% distributed system, it&amp;rsquo;s not easy. So why is the most popular service mesh, Istio, the shape it is?
 We&amp;rsquo;ll see how the design fits the traditional three-tier model better than you think.</description>
     </item>
@@ -29,7 +29,7 @@ We&amp;rsquo;ll see how the design fits the traditional three-tier model better 
       <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/dev-experience-ro/</guid>
-      <description>Information Conference Link</description>
+      <description>Session Information Conference Link</description>
     </item>
     
     <item>
@@ -38,9 +38,9 @@ We&amp;rsquo;ll see how the design fits the traditional three-tier model better 
       <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/istio-packets-eye-view-kubecon-na-2018/</guid>
-      <description>Video   Information Conference Link
+      <description>Video   Session Information Conference Link
 🎉 congrats to all who had their #kubecon #cloudnativecon talks accepted and thank you to everyone who submitted a talk... ~13% acceptance rate!
-&amp;mdash; Chris Aniszczyk (@cra) September 24, 2018  Abstract The Istio project reached 1.0 this summer, and is mature enough to have LTS releases. It&amp;rsquo;s getting a lot of attention, but in a lot of ways it&amp;rsquo;s still a mystery. You&amp;rsquo;ve probably read about it, you might have tried it, but do you really understand it?</description>
+&amp;mdash; Chris Aniszczyk (@cra) September 24, 2018  Abstract The Istio project reached 1.0 this summer, and is mature enough to have LTS releases. It&amp;rsquo;s getting a lot of attention, but in a lot of ways it&amp;rsquo;s still a mystery.</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@ We&amp;rsquo;ll see how the design fits the traditional three-tier model better 
       <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/life-of-a-packet-istio-devoxx-ma/</guid>
-      <description>Information Conference Link</description>
+      <description>Session Information Conference Link</description>
     </item>
     
     <item>
@@ -58,7 +58,7 @@ We&amp;rsquo;ll see how the design fits the traditional three-tier model better 
       <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/life-of-a-packet-istio-devoxx/</guid>
-      <description>Information Conference Link
+      <description>Video   Session Information Conference Link
 Abstract Istio is a service mesh for Kubernetes that offers advanced networking features. It provides intelligent routing, resiliency, and security features, so that service authors don&amp;rsquo;t have to keep re-implementing them. Istio is rapidly taking off and there are great introductory talks everywhere. However in this session, we will dive deep to explore precisely how it does what it does, following one brave little packet in from the internet and back out again.</description>
     </item>
     
@@ -68,9 +68,9 @@ Abstract Istio is a service mesh for Kubernetes that offers advanced networking 
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/app-routing-istio-london/</guid>
-      <description>Information Meetup Link
-Abstract Cross-cluster / VPC / Data Center connectivity is a huge problem. Current solutions are clunky and unreliable, using VPNs, DirectConnects, or sending everything out to the internet and back through the ingress layer. Some solutions have been attempted with Service Meshes, but these all involve a shared control plane, causing bit problems for latency, security, and reliability.
-In this talk, Matt will describe and demonstrate what he believes to be the correct approach; separate Service Meshes, with their own blast radii, sending traffic between each other as and when necessary.</description>
+      <description>Video Alas the videographers let us down.
+Session Information Meetup Link
+Abstract Cross-cluster / VPC / Data Center connectivity is a huge problem. Current solutions are clunky and unreliable, using VPNs, DirectConnects, or sending everything out to the internet and back through the ingress layer. Some solutions have been attempted with Service Meshes, but these all involve a shared control plane, causing bit problems for latency, security, and reliability.</description>
     </item>
     
     <item>
@@ -79,7 +79,8 @@ In this talk, Matt will describe and demonstrate what he believes to be the corr
       <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/life-of-a-packet-istio-cloud-native/</guid>
-      <description>Information Conference Link
+      <description>Video Video on Skillscast (login-to-view, sorry)
+Session Information Conference Link
 Abstract Istio is a service mesh for Kubernetes that offers advanced networking features. It provides intelligent routing, resiliency, and security features, so that service authors don&amp;rsquo;t have to keep re-implementing them. Istio is rapidly taking off and there are great introductory talks everywhere. However in this session, we will explore precisely how it does what it does, following one brave little packet in from the internet and back out again.</description>
     </item>
     
@@ -89,7 +90,7 @@ Abstract Istio is a service mesh for Kubernetes that offers advanced networking 
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/bash-is-testing/</guid>
-      <description>Information Conference Link
+      <description>Video   Session Information Conference Link
 Abstract Everyone says they&amp;rsquo;re coding in Rust these days, but they&amp;rsquo;re not. Every system has some bash-flavoured blu-tack hiding in the corners. But how well do you know this arcane, abstruse, annoying programming language? In 5 minutes, I&amp;rsquo;ll educate, entertain, and inform you about a core part of the bash language - the simple conditional statement. This irreverent and funny talk, while yes, insulting bash quite a lot, will hopefully provide a whole bunch of &amp;ldquo;oh, that&amp;rsquo;s why it does that&amp;rdquo; moments too.</description>
     </item>
     
@@ -99,7 +100,7 @@ Abstract Everyone says they&amp;rsquo;re coding in Rust these days, but they&amp
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/do-you-need-a-service-mesh/</guid>
-      <description>Information Conference Link
+      <description>Video   Session Information Conference Link
 Abstract The network is back. But is it useful?
 We&amp;rsquo;ll explore what a service mesh is and what they can do for your microservice web backends. Are the claims of observability, resiliency, and WAF features real? Are they useful during development, production, or both? Using pictures and demos, we&amp;rsquo;ll find out!
 This session will also briefly cover how a service mesh works, giving us a mental model with which to explore and evaluate after the talk.</description>
@@ -157,7 +158,7 @@ Recording   </description>
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/life-of-a-packet-istio-isito-london/</guid>
-      <description> Information Meetup Link
+      <description> Session Information Meetup Link
 Abstract We will explore the architecture of Istio and Envoy from a packet-eye view, seeing the function and purpose of each component in the system.
 Recording None known.
 Slides  </description>
@@ -187,7 +188,7 @@ Slides  </description>
       <pubDate>Thu, 26 Apr 2012 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/fluency/</guid>
-      <description> Conference Link
+      <description> Session Information Conference Link
 Abstract A lightning talk on why coders should write code not poetry.
 Recording   Slides  </description>
     </item>
@@ -198,7 +199,7 @@ Recording   Slides  </description>
       <pubDate>Wed, 25 Apr 2012 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/intro-to-fuse/</guid>
-      <description>Conference Link
+      <description>Session Information Conference Link
 Abstract Writing a filesystem can be very cool. Alas, writing a filesystem is also very hard. This is mainly because coding in the kernel is hard. Thankfully, most of the pain can be avoided by using a library like FUSE. Such libraries enable filesystems to be expressed as simple userspace programmes by taking care of all that tedious mucking about in kernel space.
 This talk will look at the Why and How of such filesystem development, using FUSE on UNIX.</description>
     </item>
