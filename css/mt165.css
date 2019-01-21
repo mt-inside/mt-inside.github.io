@@ -7965,7 +7965,7 @@ html {
     font-size: 16px; } }
 
 body {
-  font-family: 'Helvetica', sans-serif; }
+  font-family: 'Roboto', sans-serif; }
 
 body.home {
   /* To make the menu scrollspy work */
@@ -7986,8 +7986,12 @@ body.home {
   max-width: 960px;
   padding: 0px; }
 
-.card-title {
-  font-family: -apple-system, 'Helvetica', sans-serif; }
+h1, h2, h3, h4 {
+  font-family: 'Open Sans', sans-serif; }
+
+#about h1,
+#about h2 {
+  font-family: 'Orbitron', sans-serif; }
 
 /* == Header == */
 .nav .nav-link.active {
@@ -8013,9 +8017,7 @@ main {
 /* == Blog == */
 .post {
   max-width: 700px;
-  font-size: 1.1rem;
-  font-weight: 300;
-  line-height: 1.8;
+  font-size: 1.0rem;
   color: #111; }
   .post p {
     text-align: justify; }

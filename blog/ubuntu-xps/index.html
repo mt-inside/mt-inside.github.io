@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-<link rel="preload" href="https://fonts.gstatic.com/s/inconsolata/v16/QldKNThLqRwH-OJ1UHjlKGlZ5q0.ttf" as="font" type="font/ttf" crossorigin="anonymous" importance="high">
-<link rel="preload" href="https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0e.ttf" as="font" type="font/ttf" crossorigin="anonymous" importance="high">
 <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf" as="font" type="font/ttf" crossorigin="anonymous" importance="high">
+<link rel="preload" href="https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0e.ttf" as="font" type="font/ttf" crossorigin="anonymous" importance="high">
 <link rel="preload" href="../../img/site-cover.jpg" as="image" importance="low">
 
 
@@ -50,7 +49,7 @@
 
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans|Roboto">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans:400,400i,700,700i|Orbitron|Roboto:400,400i,700,700i" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../../css/syntax.css">
@@ -152,9 +151,9 @@
         <div class="col">
             <h1 class="post-title display-5">Installing Ubuntu on a Dell XPS 15 (9560)</h1>
             <div class="post-info-wrapper">
-                <p><strong>24 February 2018</strong></p>
+                <p><em>24 February 2018</em></p>
             </div>
-            <hr />
+            <hr style="border: 1px solid #999;" />
             
             <aside>
                 
@@ -165,18 +164,18 @@
 
 <p>I assume you know how to install Ubuntu on a sunny day. This post will talk about building a pure Ubuntu system; I don’t preserve the factory Windows or its bootloader. (I intend to try to get clean Windows booting again from an external disk; watch this space).</p>
 
-<p>Ubuntu version: <strong>18.04</strong>. <em>Yes, at time of writing (Jan 18) this is very per-release, and rcasero reports lots of problems being introduced at 17.10. However, I’m a developer and need cutting-edge package versions. This is band new hardware, support for which won’t necessarily get back-ported. I also hit a couple of kernel bugs, the best bet for which seemed to be to fail forwards.</em></p>
+<p>Ubuntu version: <strong>18.04</strong>. Yes, at time of writing (Jan 18) this is very per-release, and rcasero reports lots of problems being introduced at 17.10. However, I’m a developer and need cutting-edge package versions. This is band new hardware, support for which won’t necessarily get back-ported. I also hit a couple of kernel bugs, the best bet for which seemed to be to fail forwards.</p>
 
 <hr />
 
 <p>So; to install:</p>
 
 <ul>
-<li><strong>Take a backup of the factory Windows.</strong> <em>No, seriously. I’m not one for them normally, but so much can and did go wrong for me. You could be weeks with an expensive paperweight if you have to fix it the hard way. Not a good look if your company owns the machine. https://www.veeam.com/windows-endpoint-server-backup-free.html</em></li>
-<li><strong>Disable VT-X and VT-D in the UEFI.</strong> <em>Otherwise you’ll get “rcu_sched detected expedited stalls on cpus/tasks”. Google reports this and fingers an X58-era firmware bug with IOMMU DMA remapping. This is a good 10 years newer than X58 but I guess it’s a different processor erratum in the same area, because this seemed to fix it.</em></li>
-<li><strong>Boot the installer with kernel cmdline option “nouveau.runpm=0”.</strong> <em>Otherwise you’ll get almost total freezing, with the odd moment of CPU progress now and again. This one I can confirm by experiment. Apparently anything that wakes the nVidia chipset from sleep causes these freezes to start. That includes running lspci to find out what the laptop is made of, which is obviously the first thing you do after you’ve bought one. Also running Chrome, which uses gfx acceleration (WebGL?). Oh, and actually letting it sleep and wake.</em></li>
-<li><strong>dd /dev/zero over the first 512MB of the main /dev/nvme0n1 disk.</strong> <em>Otherwise the installer will tell you</em> “the machine’s firmware has started the installer in UEFI mode but it looks like there may be existing operating systems installed using BIOS compatibility mode. If you continue to install Debian in UEFI mode, it might be difficult to reboot the machine into any BIOS-mode operating system later”. <em>The problem is that clicking either of the buttons on that dialog does nothing and that modal dialog stays firmly put. I couldn’t even kill the installer with signal 9; I assume something was stuck in disk sleep. My best solution was to wipe enough of the disk that Ubuntu didn’t detect the “legacy” Windows install. 512 bytes (MBR partition table and stage 1 bootblocks) didn’t do it. However, setting “count=1M” in anger did, even though there are partition table backups at the end of the disk. Meh. idk. Why the factory Windows was installed or miss-detected as BIOS-mode I don’t know either. A shadow protection MBR partition table maybe?</em></li>
-<li><strong>If you want a different filesystem, run the installer once with default disk settings, then go over it again.</strong> <em>Otherwise you’ll get “Can’t install grub.” Totally opaque, with no meaningful error message. In my case I wanted btrfs for / so I chose manual disk partitioning. I dutifully made an EFI System Partition (512MB, usage “EFI”), and set the rest as btrfs root. Grub wouldn’t install. The only smoking gun I saw was that it’d formatted the ESP partition ext4; I swear it has be to vfat. Anyway, run once with default disk settings. This will wipe Windows (in addition to your dd attack above), make a vfat ESP, and successfully install grub. The system will boot but your filesystem will be a bit sub-par. Now run the installer again, chose manual partitioning, delete the rootfs and re-add as btrfs, but don’t touch the EPS. The installer seems to find the EFI boot machinery fine and update it (or maybe it doesn’t even — the path into / is the same I guess), but it doesn&rsquo;t reformat it at least.</em></li>
+<li><strong>Take a backup of the factory Windows.</strong> No, seriously. I’m not one for them normally, but so much can and did go wrong for me. You could be weeks with an expensive paperweight if you have to fix it the hard way. Not a good look if your company owns the machine. https://www.veeam.com/windows-endpoint-server-backup-free.html</li>
+<li><strong>Disable VT-X and VT-D in the UEFI.</strong> Otherwise you’ll get “rcu_sched detected expedited stalls on cpus/tasks”. Google reports this and fingers an X58-era firmware bug with IOMMU DMA remapping. This is a good 10 years newer than X58 but I guess it’s a different processor erratum in the same area, because this seemed to fix it.</li>
+<li><strong>Boot the installer with kernel cmdline option “nouveau.runpm=0”.</strong> Otherwise you’ll get almost total freezing, with the odd moment of CPU progress now and again. This one I can confirm by experiment. Apparently anything that wakes the nVidia chipset from sleep causes these freezes to start. That includes running lspci to find out what the laptop is made of, which is obviously the first thing you do after you’ve bought one. Also running Chrome, which uses gfx acceleration (WebGL?). Oh, and actually letting it sleep and wake.</li>
+<li><strong>dd /dev/zero over the first 512MB of the main /dev/nvme0n1 disk.</strong> Otherwise the installer will tell you <em>“the machine’s firmware has started the installer in UEFI mode but it looks like there may be existing operating systems installed using BIOS compatibility mode. If you continue to install Debian in UEFI mode, it might be difficult to reboot the machine into any BIOS-mode operating system later”.</em> The problem is that clicking either of the buttons on that dialog does nothing and that modal dialog stays firmly put. I couldn’t even kill the installer with signal 9; I assume something was stuck in disk sleep. My best solution was to wipe enough of the disk that Ubuntu didn’t detect the “legacy” Windows install. 512 bytes (MBR partition table and stage 1 bootblocks) didn’t do it. However, setting “count=1M” in anger did, even though there are partition table backups at the end of the disk. Meh. idk. Why the factory Windows was installed or miss-detected as BIOS-mode I don’t know either. A shadow protection MBR partition table maybe?</li>
+<li><strong>If you want a different filesystem, run the installer once with default disk settings, then go over it again.</strong> Otherwise you’ll get “Can’t install grub.” Totally opaque, with no meaningful error message. In my case I wanted btrfs for / so I chose manual disk partitioning. I dutifully made an EFI System Partition (512MB, usage “EFI”), and set the rest as btrfs root. Grub wouldn’t install. The only smoking gun I saw was that it’d formatted the ESP partition ext4; I swear it has be to vfat. Anyway, run once with default disk settings. This will wipe Windows (in addition to your dd attack above), make a vfat ESP, and successfully install grub. The system will boot but your filesystem will be a bit sub-par. Now run the installer again, chose manual partitioning, delete the rootfs and re-add as btrfs, but don’t touch the EPS. The installer seems to find the EFI boot machinery fine and update it (or maybe it doesn’t even — the path into / is the same I guess), but it doesn&rsquo;t reformat it at least.</li>
 </ul>
 
 <hr />
@@ -184,8 +183,8 @@
 <p>After installation:</p>
 
 <ul>
-<li><strong>Re-enable VT-X and VT-D.</strong> <em>The installation medium doesn’t inject any microcode into the CPU, and CPU bugs were suspected for this one. The installed system does do this, out of the box, nothing to install. The Ubuntu 18.04 intel-microcode package even has microcode for this very new processor (family 06, model 9E, stepping 09). Yes, it’s true that the UEFI also contains a microcode blob which it loads at boot, and I updated my BIOS to the latest 1.5 version which was mere days old at time of writing, but that didn’t do it. For reference: Ubuntu was loading version 0x80.</em></li>
-<li><strong>Fix graphics driver Power Management issues.</strong> <em>Essentially, the current nouveau driver is buggy with respect to the GTX1050 / GP107M in the laptop. This is a known issue. I guess your options are as follows. FWIW I chose 2, and while I don&rsquo;t play games, I haven&rsquo;t noticed any graphics performance problems on the desktop. Also the battery life is now awesome. Either way, confirm by running <code>lspci</code> and not getting a lockup.</em>
+<li><strong>Re-enable VT-X and VT-D.</strong> The installation medium doesn’t inject any microcode into the CPU, and CPU bugs were suspected for this one. The installed system does do this, out of the box, nothing to install. The Ubuntu 18.04 intel-microcode package even has microcode for this very new processor (family 06, model 9E, stepping 09). Yes, it’s true that the UEFI also contains a microcode blob which it loads at boot, and I updated my BIOS to the latest 1.5 version which was mere days old at time of writing, but that didn’t do it. For reference: Ubuntu was loading version 0x80.</li>
+<li><strong>Fix graphics driver Power Management issues.</strong> Essentially, the current nouveau driver is buggy with respect to the GTX1050 / GP107M in the laptop. This is a known issue. I guess your options are as follows. FWIW I chose 2, and while I don&rsquo;t play games, I haven&rsquo;t noticed any graphics performance problems on the desktop. Also the battery life is now awesome. Either way, confirm by running <code>lspci</code> and not getting a lockup.
 
 <ol>
 <li>Wait it out, and don’t trigger an nVidia hardware wakeup in the mean-time</li>
@@ -208,7 +207,7 @@
     </div>
     <div class="row">
         <div class="col-12 col-md text-center">
-            <small class="d-block mb-3 text-muted">Copyright © Matt Turner 2018. All rights reserved.</small>
+            <small class="d-block mb-3 text-muted">Copyright © Matt Turner 2018-2019. All rights reserved.</small>
         </div>
     </div>
 </footer>
