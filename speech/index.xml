@@ -33,6 +33,18 @@ We&amp;rsquo;ll see how the design fits the traditional three-tier model better 
     </item>
     
     <item>
+      <title>Intro to Istio</title>
+      <link>https://mt165.co.uk/speech/intro-to-istio-devsecops/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/intro-to-istio-devsecops/</guid>
+      <description>Information Meetup Link
+Abstract I’ll show what Istio is, and how it does what it does. We’ll explore that from the point of view of one packet travelling in from the internet and back out again, to show us all the major data and control plane components.
+Video Coming Soon!
+Slides Coming Soon!</description>
+    </item>
+    
+    <item>
       <title>Do You Need a Service Mesh?</title>
       <link>https://mt165.co.uk/speech/do-you-need-a-service-mesh-london-devops/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>

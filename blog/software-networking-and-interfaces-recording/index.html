@@ -14,21 +14,21 @@
 
 
 
-<meta property="og:url" content="https://mt165.co.uk/speech/do-you-need-a-service-mesh-london-devops/" />
-<meta property="og:title" content="Do You Need a Service Mesh? - Matt Turner" />
+<meta property="og:url" content="https://mt165.co.uk/blog/software-networking-and-interfaces-recording/" />
+<meta property="og:title" content="Software Networking and Interfaces - Matt Turner" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Matt Turner" />
 <meta property="og:type" content="article" />
-    <meta property="og:description" content="A high-level overview and critique of service meshes"/>
-    <meta property="article:published_time" content="2018-12-24T19:30:11Z" />
+    <meta property="og:description" content="A tour of the many types of network interface on Linux"/>
+    <meta property="article:published_time" content="2019-01-13T20:22:48Z" />
     
         <meta property="og:image" content="https://mt165.co.uk/TODO"/>
-<meta name="twitter:url" content="https://mt165.co.uk/speech/do-you-need-a-service-mesh-london-devops/" />
-<meta name="twitter:title" content="Do You Need a Service Mesh? - Matt Turner" />
+<meta name="twitter:url" content="https://mt165.co.uk/blog/software-networking-and-interfaces-recording/" />
+<meta name="twitter:title" content="Software Networking and Interfaces - Matt Turner" />
 <meta name="twitter:site" content="@mt165"/>
 
 <meta name="twitter:creator" content="@mt165"/>
-<meta name="twitter:description" content="A high-level overview and critique of service meshes"/><meta name="twitter:card" content="summary"/>
+<meta name="twitter:description" content="A tour of the many types of network interface on Linux"/><meta name="twitter:card" content="summary"/>
         <meta name="twitter:image" content="https://mt165.co.uk/TODO"/>
 
 
@@ -59,11 +59,11 @@
 
 
 
-<title>Matt Turner - Do You Need a Service Mesh?</title>
+<title>Matt Turner - Software Networking and Interfaces</title>
 
 
 
-<meta name="description" content="A high-level overview and critique of service meshes">
+<meta name="description" content="A tour of the many types of network interface on Linux">
 
 
 
@@ -106,55 +106,77 @@
         
     </ul>
 </nav>
+<div class="floating-header fixed-top border-bottom bg-light align-items-center">
+    <div class="container">
+	<div class="row p-3">
+	    <div class="col-9">
+		<h5 class="text-dark">Software Networking and Interfaces</span>
+	    </div>
+	    <div class="col-3">
+		<div class="text-dark text-right">
+		    Share:&nbsp;
+		    <a class=""
+		       href="https://twitter.com/share?text=Software%20Networking%20and%20Interfaces&amp;url=https%3a%2f%2fmt165.co.uk%2fblog%2fsoftware-networking-and-interfaces-recording%2f"
+		       target="_blank"
+		       rel="noopener">
+			<i class="fab fa-twitter"></i>
+		    </a>
+		    <a class=""
+		       href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmt165.co.uk%2fblog%2fsoftware-networking-and-interfaces-recording%2f"
+		       target="_blank"
+		       rel="noopener">
+			<i class="fab fa-facebook"></i>
+		    </a>
+		    <a class=""
+		       href="https://www.linkedin.com/shareArticle?title=Software%20Networking%20and%20Interfaces&amp;summary=A%20tour%20of%20the%20many%20types%20of%20network%20interface%20on%20Linux&amp;url=https%3a%2f%2fmt165.co.uk%2fblog%2fsoftware-networking-and-interfaces-recording%2f&amp;source=Matt%20Turner&amp;mini=true"
+		       target="_blank"
+		       rel="noopener">
+			<i class="fab fa-linkedin"></i>
+		    </a>
+		</div>
+	    </div>
+	</div>
+    </div>
 
+    <progress class="progress" value="0">
+	<div class="progress-container">
+	    <span class="progress-bar"></span>
+	</div>
+    </progress>
+</div>
 
-
-<div style="height: 200px;"></div>
-
-
-<main class="post mx-auto px-4 px-md-0" style="position: relative; top: -190px">
+<script src="../../js/progress-header.js" defer></script>
+<main class="post mx-auto px-4 px-md-0">
     <div class="row">
         <div class="col">
-            <h1 class="post-title display-5">Do You Need a Service Mesh?</h1>
+            <h1 class="post-title display-5">Software Networking and Interfaces</h1>
             <div class="post-info-wrapper">
-                <p><em>10 January 2019 | London DevOps, London UK</em></p>
+                <p><em>21 January 2019</em></p>
             </div>
             <hr style="border: 1px solid #999;" />
-            <p>
+            
+            <aside>
+                
+            </aside>
+            <p><p>These are the days of VMs, containers, and service meshes. The network, for a long time the sysadmin&rsquo;s mysterious domain, is now at the fore-front: providing overlays, security features, and headaches. It&rsquo;s vital to be able to understand what&rsquo;s going on under the hood of a cloud-native platform if you ever hope to debug it, but do you know a TAP from a TUN, let alone an ipvlanL3? This talk will take you through all the network interface types on modern linux, from good old eth0 to the vEths used by Docker and the tunnels used by Calico.</p>
 
-<h3 id="session-information">Session Information</h3>
-
-<p><a href="https://www.meetup.com/London-DevOps/events/257705718/" target="_blank">Meetup Link</a></p>
-
-<h3 id="abstract">Abstract</h3>
-
-<p>Service meshes are cool, but are they useful? We&rsquo;ll explore what a service mesh is and what they can do for your microservices. Are the claims of observability, resiliency, and WAF features real? Are they useful during development, production, or both? Using pictures and demos, we&rsquo;ll find out!</p>
-
-<h3 id="video">Video</h3>
-
-<p>Coming Soon!</p>
-
-<h3 id="slides">Slides</h3>
-
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/wtLoKNBLFr6r0N" width="960" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
+<p>I&rsquo;ve made the following videos in the hope people find it helpful!</p>
 
 
-<h3 id="demo-scripts">Demo Scripts</h3>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/EnAZB8GI97c" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
 
-<div class="github-card" data-target="blank" data-user="mt-inside" data-repo="do-you-need-a-service-mesh-london-devops" data-width="700" data-height="299" data-theme="medium"></div>
-<script src="//lab.lepture.com/github-cards/widget.js"></script>
 
 
-<h3 id="reviews">Reviews</h3>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Amazing talk about service mesh and another great example how to use <a href="https://twitter.com/IstioMesh?ref_src=twsrc%5Etfw">@IstioMesh</a>! Worth to have a look! As well as one more reason to invest in testing in production! <a href="https://twitter.com/hashtag/devops?src=hash&amp;ref_src=twsrc%5Etfw">#devops</a> <a href="https://twitter.com/hashtag/kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#kubernetes</a> <a href="https://twitter.com/hashtag/istio?src=hash&amp;ref_src=twsrc%5Etfw">#istio</a> <a href="https://t.co/NAFahgnJh6">pic.twitter.com/NAFahgnJh6</a></p>&mdash; Mikhail Laptev (@MikeLaptev) <a href="https://twitter.com/MikeLaptev/status/1083458629972492288?ref_src=twsrc%5Etfw">January 10, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/5WNEpE1vLvc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
 
 </p>
         </div>
     </div>
 </main>
-
 <footer class="my-5 pt-3 border-top">
     <div class="row">
         

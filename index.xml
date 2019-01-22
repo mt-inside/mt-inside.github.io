@@ -33,6 +33,27 @@ We&amp;rsquo;ll see how the design fits the traditional three-tier model better 
     </item>
     
     <item>
+      <title>Intro to Istio</title>
+      <link>https://mt165.co.uk/speech/intro-to-istio-devsecops/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/intro-to-istio-devsecops/</guid>
+      <description>Information Meetup Link
+Abstract I’ll show what Istio is, and how it does what it does. We’ll explore that from the point of view of one packet travelling in from the internet and back out again, to show us all the major data and control plane components.
+Video Coming Soon!
+Slides Coming Soon!</description>
+    </item>
+    
+    <item>
+      <title>Software Networking and Interfaces</title>
+      <link>https://mt165.co.uk/blog/software-networking-and-interfaces-recording/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/blog/software-networking-and-interfaces-recording/</guid>
+      <description>These are the days of VMs, containers, and service meshes. The network, for a long time the sysadmin&amp;rsquo;s mysterious domain, is now at the fore-front: providing overlays, security features, and headaches. It&amp;rsquo;s vital to be able to understand what&amp;rsquo;s going on under the hood of a cloud-native platform if you ever hope to debug it, but do you know a TAP from a TUN, let alone an ipvlanL3? This talk will take you through all the network interface types on modern linux, from good old eth0 to the vEths used by Docker and the tunnels used by Calico.</description>
+    </item>
+    
+    <item>
       <title>Do You Need a Service Mesh?</title>
       <link>https://mt165.co.uk/speech/do-you-need-a-service-mesh-london-devops/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>

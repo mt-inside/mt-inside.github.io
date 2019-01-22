@@ -13,6 +13,16 @@
   </url>
   
   <url>
+    <loc>https://mt165.co.uk/speech/intro-to-istio-devsecops/</loc>
+    <lastmod>2019-01-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mt165.co.uk/blog/software-networking-and-interfaces-recording/</loc>
+    <lastmod>2019-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mt165.co.uk/speech/do-you-need-a-service-mesh-london-devops/</loc>
     <lastmod>2019-01-10T00:00:00+00:00</lastmod>
   </url>
@@ -114,7 +124,7 @@
   
   <url>
     <loc>https://mt165.co.uk/blog/</loc>
-    <lastmod>2018-08-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Copyright © Matt Turner 2018-2019. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 24 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mt165.co.uk/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Software Networking and Interfaces</title>
+      <link>https://mt165.co.uk/blog/software-networking-and-interfaces-recording/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/blog/software-networking-and-interfaces-recording/</guid>
+      <description>These are the days of VMs, containers, and service meshes. The network, for a long time the sysadmin&amp;rsquo;s mysterious domain, is now at the fore-front: providing overlays, security features, and headaches. It&amp;rsquo;s vital to be able to understand what&amp;rsquo;s going on under the hood of a cloud-native platform if you ever hope to debug it, but do you know a TAP from a TUN, let alone an ipvlanL3? This talk will take you through all the network interface types on modern linux, from good old eth0 to the vEths used by Docker and the tunnels used by Calico.</description>
+    </item>
     
     <item>
       <title>Getting Started with Istio on Amazon EKS</title>
