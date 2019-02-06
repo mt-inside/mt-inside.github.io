@@ -7993,6 +7993,13 @@ h1, h2, h3, h4 {
 #about h2 {
   font-family: 'Orbitron', sans-serif; }
 
+/* == Bootstrap overrides == */
+.blockquote {
+  font-size: 1rem;
+  margin-left: 2rem;
+  padding-left: 1rem;
+  border-left: 5px solid gray; }
+
 /* == Header == */
 .nav .nav-link.active {
   -webkit-box-sizing: border-box;
