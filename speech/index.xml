@@ -33,6 +33,17 @@ We&amp;rsquo;ll see how the design fits the traditional three-tier model better 
     </item>
     
     <item>
+      <title>Running Resilient Workloads with Istio</title>
+      <link>https://mt165.co.uk/speech/resilient-workloads-istio-cn-wales/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/resilient-workloads-istio-cn-wales/</guid>
+      <description>Information Meetup Link
+Abstract Remember how cool Kubernetes seemed when you first started using it? A simple, easy API for scalable compute in any cloud: just a Deployment and a Service and you’re done! But as you use it more, you learn that this isn&amp;rsquo;t really enough. A production system needs requests and limits, liveness checks, HPAs, PDBs, PSPs, etc.
+The same is true for Istio, which can solve a lot of the problems with microservices out of the box, but isn&amp;rsquo;t magic.</description>
+    </item>
+    
+    <item>
       <title>Intro to Istio</title>
       <link>https://mt165.co.uk/speech/intro-to-istio-devsecops/</link>
       <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
