@@ -14,10 +14,10 @@
     
     <item>
       <title>Why Is Istio That Shape?</title>
-      <link>https://mt165.co.uk/speech/20190522-why-is-istio-that-shape-gluecon/</link>
+      <link>https://mt165.co.uk/speech/why-is-istio-that-shape-gluecon/</link>
       <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mt165.co.uk/speech/20190522-why-is-istio-that-shape-gluecon/</guid>
+      <guid>https://mt165.co.uk/speech/why-is-istio-that-shape-gluecon/</guid>
       <description>Session Information Conference Link
 Abstract Services Meshes are growing in relevance and adoption, as you can see from all the intro talks out there. But how do you build one of these things? Part network, part service discovery system, part logging adaptor, and 100% distributed system, it&amp;rsquo;s not easy. So why is the most popular service mesh, Istio, the shape it is?
 We&amp;rsquo;ll see how the design fits the traditional three-tier model better than you think.</description>
@@ -30,6 +30,20 @@ We&amp;rsquo;ll see how the design fits the traditional three-tier model better 
       
       <guid>https://mt165.co.uk/speech/dev-experience-ro/</guid>
       <description>Session Information Conference Link</description>
+    </item>
+    
+    <item>
+      <title>tbd Istio</title>
+      <link>https://mt165.co.uk/speech/istio-openinfra/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/istio-openinfra/</guid>
+      <description>Information Conference Link
+Abstract TODO
+Video Coming Soon!
+Slides Coming Soon!
+Demo Scripts Coming Soon!
+Reviews Coming Soon!</description>
     </item>
     
     <item>

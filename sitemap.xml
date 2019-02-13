@@ -3,13 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mt165.co.uk/speech/20190522-why-is-istio-that-shape-gluecon/</loc>
+    <loc>https://mt165.co.uk/speech/why-is-istio-that-shape-gluecon/</loc>
     <lastmod>2019-05-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mt165.co.uk/speech/dev-experience-ro/</loc>
     <lastmod>2018-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mt165.co.uk/speech/istio-openinfra/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
