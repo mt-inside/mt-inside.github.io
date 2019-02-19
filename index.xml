@@ -33,13 +33,27 @@ We&amp;rsquo;ll see how the design fits the traditional three-tier model better 
     </item>
     
     <item>
-      <title>tbd Istio</title>
-      <link>https://mt165.co.uk/speech/istio-openinfra/</link>
+      <title>Running Resilient Workloads with Istio</title>
+      <link>https://mt165.co.uk/speech/resilient-workloads-istio-openinfra/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mt165.co.uk/speech/istio-openinfra/</guid>
+      <guid>https://mt165.co.uk/speech/resilient-workloads-istio-openinfra/</guid>
       <description>Information Conference Link
 Abstract TODO
+Video Coming Soon!
+Slides Coming Soon!
+Demo Scripts Coming Soon!
+Reviews Coming Soon!</description>
+    </item>
+    
+    <item>
+      <title>Service Mesh AMA</title>
+      <link>https://mt165.co.uk/speech/service-mesh-ama-qcon-london/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/service-mesh-ama-qcon-london/</guid>
+      <description>Information Conference Link
+Abstract An AMA session about service meshes, with Nic Jackson and others.
 Video Coming Soon!
 Slides Coming Soon!
 Demo Scripts Coming Soon!
