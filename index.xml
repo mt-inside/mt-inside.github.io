@@ -24,6 +24,17 @@ We&amp;rsquo;ll see how the design fits the traditional three-tier model better 
     </item>
     
     <item>
+      <title>Do You Need a Service Mesh?</title>
+      <link>https://mt165.co.uk/speech/do-you-need-a-service-mesh-devdays-2019/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/do-you-need-a-service-mesh-devdays-2019/</guid>
+      <description>Information Conference Link
+Abstract We&amp;rsquo;ll explore what a service mesh is and what they can do for your microservice web backends. Are the claims of observability, resiliency, and WAF features real? Are they useful during development, production, or both? Using pictures and demos, we&amp;rsquo;ll find out!
+This session will also briefly cover how a service mesh works, giving us a mental model with which to explore and evaluate after the talk.</description>
+    </item>
+    
+    <item>
       <title>tbd Service Meshes</title>
       <link>https://mt165.co.uk/speech/dev-experience-ro/</link>
       <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
