@@ -73,6 +73,16 @@ Reviews Coming Soon!</description>
     </item>
     
     <item>
+      <title>The Life of a Packet Through Istio</title>
+      <link>https://mt165.co.uk/speech/life-of-a-packet-qcon-london/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/life-of-a-packet-qcon-london/</guid>
+      <description>Information Conference Link
+Abstract Istio is a service mesh for Kubernetes that offers advanced networking features. It provides intelligent routing, resiliency, and security features, so that service authors don&amp;rsquo;t have to keep reimplementing them. Istio is rapidly taking off and ther are great introductory talks everywhere. However in this session, we will dive deep to explore precisely how it does what it does, following one brave little packet in from the Internet and back out again.</description>
+    </item>
+    
+    <item>
       <title>Running Resilient Workloads with Istio</title>
       <link>https://mt165.co.uk/speech/resilient-workloads-istio-cn-wales/</link>
       <pubDate>Thu, 07 Feb 2019 00:00:00 +0000</pubDate>
