@@ -29,7 +29,7 @@ We&amp;rsquo;ll see how the design fits the traditional three-tier model better 
       <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/do-you-need-a-service-mesh-devdays-2019/</guid>
-      <description>Information Conference Link
+      <description>Session Information Conference Link
 Abstract We&amp;rsquo;ll explore what a service mesh is and what they can do for your microservice web backends. Are the claims of observability, resiliency, and WAF features real? Are they useful during development, production, or both? Using pictures and demos, we&amp;rsquo;ll find out!
 This session will also briefly cover how a service mesh works, giving us a mental model with which to explore and evaluate after the talk.</description>
     </item>
@@ -50,9 +50,9 @@ Abstract Istio is a service mesh for Kubernetes that offers advanced networking 
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/resilient-workloads-istio-openinfra/</guid>
-      <description>Information Conference Link
+      <description>Session Information Conference Link
 Abstract TODO
-Video Coming Soon!
+Recording Coming Soon!
 Slides Coming Soon!
 Demo Scripts Coming Soon!
 Reviews Coming Soon!</description>
@@ -64,9 +64,9 @@ Reviews Coming Soon!</description>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/service-mesh-ama-qcon-london/</guid>
-      <description>Information Conference Link
+      <description>Session Information Conference Link
 Abstract An AMA session about service meshes, with Nic Jackson and others.
-Video Coming Soon!
+Recording Coming Soon!
 Slides Coming Soon!
 Demo Scripts Coming Soon!
 Reviews Coming Soon!</description>
@@ -78,7 +78,8 @@ Reviews Coming Soon!</description>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/life-of-a-packet-qcon-london/</guid>
-      <description>Information Conference Link
+      <description>Recording Video on InfoQ (paywalled for the next few months, sorry)
+Session Information Conference Link
 Abstract Istio is a service mesh for Kubernetes that offers advanced networking features. It provides intelligent routing, resiliency, and security features, so that service authors don&amp;rsquo;t have to keep reimplementing them. Istio is rapidly taking off and ther are great introductory talks everywhere. However in this session, we will dive deep to explore precisely how it does what it does, following one brave little packet in from the Internet and back out again.</description>
     </item>
     
@@ -88,7 +89,7 @@ Abstract Istio is a service mesh for Kubernetes that offers advanced networking 
       <pubDate>Thu, 07 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/resilient-workloads-istio-cn-wales/</guid>
-      <description>Information Meetup Link
+      <description>Session Information Meetup Link
 Abstract Remember how cool Kubernetes seemed when you first started using it? A simple, easy API for scalable compute in any cloud: just a Deployment and a Service and you’re done! But as you use it more, you learn that this isn&amp;rsquo;t really enough. A production system needs requests and limits, liveness checks, HPAs, PDBs, PSPs, etc.
 The same is true for Istio, which can solve a lot of the problems with microservices out of the box, but isn&amp;rsquo;t magic.</description>
     </item>
@@ -99,10 +100,9 @@ The same is true for Istio, which can solve a lot of the problems with microserv
       <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/intro-to-istio-devsecops/</guid>
-      <description> I was booked for this session but sadly I was ill and couldn&amp;rsquo;t make it. A friend presented my slides instead.
-Information Meetup Link
-Abstract I’ll show what Istio is, and how it does what it does. We’ll explore that from the point of view of one packet travelling in from the internet and back out again, to show us all the major data and control plane components.
-Video   Slides  </description>
+      <description>I was booked for this session but sadly I was ill and couldn&amp;rsquo;t make it. A friend presented my slides instead.
+Recording   Session Information Meetup Link
+Abstract I’ll show what Istio is, and how it does what it does. We’ll explore that from the point of view of one packet travelling in from the internet and back out again, to show us all the major data and control plane components.</description>
     </item>
     
     <item>
@@ -111,9 +111,9 @@ Video   Slides  </description>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/do-you-need-a-service-mesh-london-devops/</guid>
-      <description>Session Information Meetup Link
+      <description>Recording   Session Information Meetup Link
 Abstract Service meshes are cool, but are they useful? We&amp;rsquo;ll explore what a service mesh is and what they can do for your microservices. Are the claims of observability, resiliency, and WAF features real? Are they useful during development, production, or both? Using pictures and demos, we&amp;rsquo;ll find out!
-Video   Slides  Demo Scripts   Reviews Amazing talk about service mesh and another great example how to use @IstioMesh!</description>
+Slides  Demo Scripts   Reviews Amazing talk about service mesh and another great example how to use @IstioMesh!</description>
     </item>
     
     <item>
@@ -122,7 +122,7 @@ Video   Slides  Demo Scripts   Reviews Amazing talk about service mesh and anoth
       <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/istio-packets-eye-view-kubecon-na-2018/</guid>
-      <description>Video   Session Information Conference Link
+      <description>Recording   Session Information Conference Link
 🎉 congrats to all who had their #kubecon #cloudnativecon talks accepted and thank you to everyone who submitted a talk... ~13% acceptance rate!
 &amp;mdash; Chris Aniszczyk (@cra) September 24, 2018  Abstract The Istio project reached 1.0 this summer, and is mature enough to have LTS releases. It&amp;rsquo;s getting a lot of attention, but in a lot of ways it&amp;rsquo;s still a mystery.</description>
     </item>
@@ -142,7 +142,7 @@ Video   Slides  Demo Scripts   Reviews Amazing talk about service mesh and anoth
       <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/life-of-a-packet-istio-devoxx/</guid>
-      <description>Video   Session Information Conference Link
+      <description>Recording   Session Information Conference Link
 Abstract Istio is a service mesh for Kubernetes that offers advanced networking features. It provides intelligent routing, resiliency, and security features, so that service authors don&amp;rsquo;t have to keep re-implementing them. Istio is rapidly taking off and there are great introductory talks everywhere. However in this session, we will dive deep to explore precisely how it does what it does, following one brave little packet in from the internet and back out again.</description>
     </item>
     
@@ -152,7 +152,7 @@ Abstract Istio is a service mesh for Kubernetes that offers advanced networking 
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/app-routing-istio-london/</guid>
-      <description>Video Alas the videographers let us down.
+      <description>Recording Alas the videographers let us down.
 Session Information Meetup Link
 Abstract Cross-cluster / VPC / Data Center connectivity is a huge problem. Current solutions are clunky and unreliable, using VPNs, DirectConnects, or sending everything out to the internet and back through the ingress layer. Some solutions have been attempted with Service Meshes, but these all involve a shared control plane, causing bit problems for latency, security, and reliability.</description>
     </item>
@@ -163,7 +163,7 @@ Abstract Cross-cluster / VPC / Data Center connectivity is a huge problem. Curre
       <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/life-of-a-packet-istio-cloud-native/</guid>
-      <description>Video Video on Skillscast (login-to-view, sorry)
+      <description>Recording Video on Skillscast (login-to-view, sorry)
 Session Information Conference Link
 Abstract Istio is a service mesh for Kubernetes that offers advanced networking features. It provides intelligent routing, resiliency, and security features, so that service authors don&amp;rsquo;t have to keep re-implementing them. Istio is rapidly taking off and there are great introductory talks everywhere. However in this session, we will explore precisely how it does what it does, following one brave little packet in from the internet and back out again.</description>
     </item>
@@ -174,7 +174,7 @@ Abstract Istio is a service mesh for Kubernetes that offers advanced networking 
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/bash-is-testing/</guid>
-      <description>Video   Session Information Conference Link
+      <description>Recording   Session Information Conference Link
 Abstract Everyone says they&amp;rsquo;re coding in Rust these days, but they&amp;rsquo;re not. Every system has some bash-flavoured blu-tack hiding in the corners. But how well do you know this arcane, abstruse, annoying programming language? In 5 minutes, I&amp;rsquo;ll educate, entertain, and inform you about a core part of the bash language - the simple conditional statement. This irreverent and funny talk, while yes, insulting bash quite a lot, will hopefully provide a whole bunch of &amp;ldquo;oh, that&amp;rsquo;s why it does that&amp;rdquo; moments too.</description>
     </item>
     
@@ -184,7 +184,7 @@ Abstract Everyone says they&amp;rsquo;re coding in Rust these days, but they&amp
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/do-you-need-a-service-mesh/</guid>
-      <description>Video   Session Information Conference Link
+      <description>Recording   Session Information Conference Link
 Abstract The network is back. But is it useful?
 We&amp;rsquo;ll explore what a service mesh is and what they can do for your microservice web backends. Are the claims of observability, resiliency, and WAF features real? Are they useful during development, production, or both? Using pictures and demos, we&amp;rsquo;ll find out!
 This session will also briefly cover how a service mesh works, giving us a mental model with which to explore and evaluate after the talk.</description>
@@ -218,9 +218,9 @@ Slides  Demo Scripts   </description>
       <pubDate>Thu, 26 Apr 2012 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/fluency/</guid>
-      <description> Session Information Conference Link
+      <description> Recording   Session Information Conference Link
 Abstract A lightning talk on why coders should write code not poetry.
-Recording   Slides  </description>
+Slides  </description>
     </item>
     
     <item>
