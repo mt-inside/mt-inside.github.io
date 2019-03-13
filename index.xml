@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Copyright © Matt Turner 2018-2019. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 22 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mt165.co.uk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Linux Virtual Networking and Interfaces</title>
+      <link>https://mt165.co.uk/speech/linux-virt-net-srecon-asia-19/</link>
+      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/linux-virt-net-srecon-asia-19/</guid>
+      <description>Session Information Conference Link
+Abstract These are the days of VMs, containers, and service meshes. The network, for a long time the sysadmin&amp;rsquo;s mysterious domain, is now at the fore-front: providing overlays, security features, and headaches. It&amp;rsquo;s vital to be able to understand what&amp;rsquo;s going on under the hood of a cloud-native platform if you ever hope to debug it, but do you know a TAP from a TUN, let alone an ipvlanL3?</description>
+    </item>
     
     <item>
       <title>Why Is Istio That Shape?</title>
@@ -64,12 +74,11 @@ Reviews Coming Soon!</description>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/service-mesh-ama-qcon-london/</guid>
-      <description>Session Information Conference Link
-Abstract An AMA session about service meshes, with Nic Jackson and others.
-Recording Coming Soon!
-Slides Coming Soon!
-Demo Scripts Coming Soon!
-Reviews Coming Soon!</description>
+      <description> Session Information Conference Link
+Abstract An AMA session about service meshes, with Nic Jackson and Andrew Martin.
+Recording This session wasn&amp;rsquo;t recorded.
+Reviews Votes (n==?)
+ Green: 84% Yellow: 8% Red: 8%  </description>
     </item>
     
     <item>
