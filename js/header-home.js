@@ -61,7 +61,7 @@ $(document).ready(function () {
     update();
 });
 
-function smoothScroll(evnt, two) {
+function smoothScroll(evnt) {
     /* Because we use jQuery to add the event listener, we're in jQuery
      * land here; the args are jQuery objects not DOM ones, so the API is
      * different. */
@@ -72,5 +72,9 @@ function smoothScroll(evnt, two) {
         scrollTop: $(evnt.currentTarget.attributes["href"].value).offset().top - 70
     }, 500)
 
-    // jQuery events seem to preventDefault by, uh, default, so don't need to call that
+    // If defaults aren't prevented, with it being a relative anchor (ie
+    // not "/#foo", there's no reload, so the browser jumps direct to the
+    // HREF for a microsecond, then back to the original position and
+    // scrolls as expected. The glitch is near-imperceptible.
+    evnt.preventDefault();
 }
