@@ -34,17 +34,6 @@ Istio already helps communication within a cluster: adding layer 7 routing, auto
     </item>
     
     <item>
-      <title>Why Is Istio That Shape?</title>
-      <link>https://mt165.co.uk/speech/why-is-istio-that-shape-gluecon/</link>
-      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://mt165.co.uk/speech/why-is-istio-that-shape-gluecon/</guid>
-      <description>Session Information Conference Link
-Abstract Services Meshes are growing in relevance and adoption, as you can see from all the intro talks out there. But how do you build one of these things? Part network, part service discovery system, part logging adaptor, and 100% distributed system, it&amp;rsquo;s not easy. So why is the most popular service mesh, Istio, the shape it is?
-We&amp;rsquo;ll see how the design fits the traditional three-tier model better than you think.</description>
-    </item>
-    
-    <item>
       <title>Do You Need a Service Mesh?</title>
       <link>https://mt165.co.uk/speech/do-you-need-a-service-mesh-devdays-2019/</link>
       <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
