@@ -55,20 +55,6 @@ Abstract Istio is a service mesh for Kubernetes that offers advanced networking 
     </item>
     
     <item>
-      <title>Running Resilient Workloads with Istio</title>
-      <link>https://mt165.co.uk/speech/resilient-workloads-istio-openinfra/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://mt165.co.uk/speech/resilient-workloads-istio-openinfra/</guid>
-      <description>Session Information Conference Link
-Abstract TODO
-Recording Coming Soon!
-Slides Coming Soon!
-Demo Scripts Coming Soon!
-Reviews Coming Soon!</description>
-    </item>
-    
-    <item>
       <title>Service Mesh AMA</title>
       <link>https://mt165.co.uk/speech/service-mesh-ama-qcon-london/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
