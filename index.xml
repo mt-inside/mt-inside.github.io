@@ -7,10 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Copyright © Matt Turner 2018-2019. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 12 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mt165.co.uk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Service Mesh Kickstarter with Istio</title>
+      <link>https://mt165.co.uk/speech/istio-workshop-qcon-ny-19/</link>
+      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/istio-workshop-qcon-ny-19/</guid>
+      <description>Session Information Conference Link
+Abstract TODO</description>
+    </item>
+    
+    <item>
+      <title>Running Resilient Workloads with Istio</title>
+      <link>https://mt165.co.uk/speech/resilient-workloads-kubecon-cn/</link>
+      <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/resilient-workloads-kubecon-cn/</guid>
+      <description>Session Information Conference Link
+Abstract Remember how cool Kubernetes seemed when you first started using it? A simple, easy API for scalable compute in any cloud: just a Deployment and a Service and you&amp;rsquo;re done! But as you use it more, you learn that this isn&amp;rsquo;t really enough. A production system needs requests and limits, liveness checks, HPAs, PDBs, PSPs, etc.
+The same is true for Istio, which can solve a lot of the problems with microservices out of the box, but isn&amp;rsquo;t magic.</description>
+    </item>
     
     <item>
       <title>Linux Virtual Networking and Interfaces</title>

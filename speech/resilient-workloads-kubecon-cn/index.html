@@ -14,21 +14,21 @@
 
 
 
-<meta property="og:url" content="https://mt165.co.uk/speech/life-of-a-packet-dev-experience-ro/" />
-<meta property="og:title" content="The Life of a Packet Through Istio - Matt Turner" />
+<meta property="og:url" content="https://mt165.co.uk/speech/resilient-workloads-kubecon-cn/" />
+<meta property="og:title" content="Running Resilient Workloads with Istio - Matt Turner" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Matt Turner" />
 <meta property="og:type" content="article" />
-    <meta property="og:description" content="Exploring Istio from the inside out by following one plucky little packet through the mesh"/>
-    <meta property="article:published_time" content="2018-11-15T00:00:00Z" />
+    <meta property="og:description" content="Running production-grade workloads on Istio takes configuration over and above the default install. In this talk I take you through how to get the best from your Service Mesh."/>
+    <meta property="article:published_time" content="2019-04-09T20:15:49&#43;01:00" />
     
         <meta property="og:image" content="https://mt165.co.uk/TODO"/>
-<meta name="twitter:url" content="https://mt165.co.uk/speech/life-of-a-packet-dev-experience-ro/" />
-<meta name="twitter:title" content="The Life of a Packet Through Istio - Matt Turner" />
+<meta name="twitter:url" content="https://mt165.co.uk/speech/resilient-workloads-kubecon-cn/" />
+<meta name="twitter:title" content="Running Resilient Workloads with Istio - Matt Turner" />
 <meta name="twitter:site" content="@mt165"/>
 
 <meta name="twitter:creator" content="@mt165"/>
-<meta name="twitter:description" content="Exploring Istio from the inside out by following one plucky little packet through the mesh"/><meta name="twitter:card" content="summary"/>
+<meta name="twitter:description" content="Running production-grade workloads on Istio takes configuration over and above the default install. In this talk I take you through how to get the best from your Service Mesh."/><meta name="twitter:card" content="summary"/>
         <meta name="twitter:image" content="https://mt165.co.uk/TODO"/>
 
 
@@ -59,11 +59,11 @@
 
 
 
-<title>Matt Turner - The Life of a Packet Through Istio</title>
+<title>Matt Turner - Running Resilient Workloads with Istio</title>
 
 
 
-<meta name="description" content="Exploring Istio from the inside out by following one plucky little packet through the mesh">
+<meta name="description" content="Running production-grade workloads on Istio takes configuration over and above the default install. In this talk I take you through how to get the best from your Service Mesh.">
 
 
 
@@ -117,32 +117,54 @@
 <main class="post mx-auto px-4 px-md-0" style="position: relative; top: -190px">
     <div class="row">
         <div class="col">
-            <h1 class="post-title display-5">The Life of a Packet Through Istio</h1>
+            <h1 class="post-title display-5">Running Resilient Workloads with Istio</h1>
             <div class="post-info-wrapper">
-                <p><em>19 April 2019 | DevExpereince, Iaşi România</em></p>
+                <p><em>25 June 2019 | KubeCon, Shanghai China</em></p>
             </div>
             <hr style="border: 1px solid #999;" />
             <p>
 
 <h3 id="session-information">Session Information</h3>
 
-<p><a href="http://devexperience.ro/speakers/matt-turner/" target="_blank">Conference Link</a></p>
+<p><a href="https://TODO" target="_blank">Conference Link</a></p>
 
 <h3 id="abstract">Abstract</h3>
 
-<p>Istio is a service mesh for Kubernetes that offers advanced networking
-features. It provides intelligent routing, resiliency, and security
-features, so that service authors don&rsquo;t have to keep re-implementing them.
-Istio is rapidly taking off and there are great introductory talks
-everywhere. However in this session, we will explore precisely how it does
-what it does, following one brave little packet in from the internet and
-back out again. This will give a great insight into Istio&rsquo;s full power, and
-its fascinating architecture.</p>
+<p>Remember how cool Kubernetes seemed when you first started using it? A simple, easy API for scalable compute in any cloud: just a Deployment and a Service and you&rsquo;re done! But as you use it more, you learn that this isn&rsquo;t really enough. A production system needs requests and limits, liveness checks, HPAs, PDBs, PSPs, etc.</p>
 
-<h3 id="slides">Slides</h3>
+<p>The same is true for Istio, which can solve a lot of the problems with microservices out of the box, but isn&rsquo;t magic. When you get beyond playing with bookinfo, more configuration is needed to get the most out of it.</p>
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/zkChfChwJTDXw7" width="960" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
+<p>In this talk I&rsquo;ll show you how to:</p>
 
+<ul>
+<li>Identify app versions, deploy canaries and run A/B tests</li>
+<li>Set timeouts</li>
+<li>Configure retries, with exponential backoff</li>
+<li>Enforce rate limits</li>
+<li>Enable circuit breakers</li>
+<li>Inject faults for testing</li>
+</ul>
+
+<p>I&rsquo;ll also cover a couple of the big security features:</p>
+
+<ul>
+<li>Enabling mTLS</li>
+<li>Using service-to-service access control lists (RBAC)</li>
+</ul>
+
+<!--
+### Recording
+Coming Soon!
+
+### Slides
+Coming Soon!
+
+### Demo Scripts
+Coming Soon!
+
+### Reviews
+Coming Soon!
+-->
 </p>
         </div>
     </div>
