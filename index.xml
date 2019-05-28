@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Copyright © Matt Turner 2018-2019. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 28 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mt165.co.uk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tbd</title>
+      <link>https://mt165.co.uk/speech/codemotion-milan-19/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/codemotion-milan-19/</guid>
+      <description>Session Information Session Link
+Abstract tbd</description>
+    </item>
     
     <item>
       <title>Service Mesh Kickstarter with Istio</title>
@@ -19,7 +29,7 @@
       
       <guid>https://mt165.co.uk/speech/istio-workshop-qcon-ny-19/</guid>
       <description>Session Information Conference Link
-Abstract TODO</description>
+Abstract A half-day workshop taking you from zero to Istio hero!</description>
     </item>
     
     <item>
@@ -49,7 +59,7 @@ Abstract These are the days of VMs, containers, and service meshes. The network,
       <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/cross-cluster-calls-istio-1-1-kubecon-eu-19/</guid>
-      <description>Session Information Session Link
+      <description>Recording   Session Information Session Link
 Abstract Despite the now-common practice of spinning up multiple clusters across multiple regions, cross-cluster communication between the services running in them is still a huge issue. We rarely bother, or when we do, it’s hard-coded at the application level. Holes are punched in our ingress. Traffic traverses the open internet with hand-crafted addresses, no observability, and one-way TLS.
 Istio already helps communication within a cluster: adding layer 7 routing, automatic security and more.</description>
     </item>
