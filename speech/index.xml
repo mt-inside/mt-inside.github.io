@@ -46,10 +46,10 @@ The same is true for Istio, which can solve a lot of the problems with microserv
     <item>
       <title>Linux Virtual Networking and Interfaces</title>
       <link>https://mt165.co.uk/speech/linux-virt-net-srecon-asia-19/</link>
-      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mt165.co.uk/speech/linux-virt-net-srecon-asia-19/</guid>
-      <description>Session Information Conference Link
+      <description>Session Information Session Link
 Abstract These are the days of VMs, containers, and service meshes. The network, for a long time the sysadmin&amp;rsquo;s mysterious domain, is now at the fore-front: providing overlays, security features, and headaches. It&amp;rsquo;s vital to be able to understand what&amp;rsquo;s going on under the hood of a cloud-native platform if you ever hope to debug it, but do you know a TAP from a TUN, let alone an ipvlanL3?</description>
     </item>
     
