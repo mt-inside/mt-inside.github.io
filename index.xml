@@ -23,6 +23,16 @@ Abstract A full-day workshop taking you from zero to Istio hero!</description>
     </item>
     
     <item>
+      <title>A Practical Introduction to Terraform using Multiple Clouds</title>
+      <link>https://mt165.co.uk/speech/tf-workshop-qcon-sf-19/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/tf-workshop-qcon-sf-19/</guid>
+      <description>Session Information Conference Link
+Abstract In this workshop we’ll learn how to automate building of cloud infrastructure. We’ll see how previously point-and-click infrastructure deployments can be specified declaratively in source-controlled files, and have their lifecycle managed by the leading cloud-native tool: Terraform. We’ll go from nothing to two servers in two clouds, and managed DNS too. Note that this workshop is about deploying IaaS resources, rather than services or Kubernetes.</description>
+    </item>
+    
+    <item>
       <title>The life of a Packet Through Istio</title>
       <link>https://mt165.co.uk/speech/codemotion-milan-19/</link>
       <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
