@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Copyright © Matt Turner 2018-2019. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 15 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mt165.co.uk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Walk-through: Debugging an RBAC Problem in Istio (but without the swearing)</title>
+      <link>https://mt165.co.uk/speech/debugging-istio-kubecon-na/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mt165.co.uk/speech/debugging-istio-kubecon-na/</guid>
+      <description>Session Information Session Link
+Abstract A few months ago, I lost a whole day to debugging a problem with RBAC in Istio. I swore a lot, but I also learned a lot. I learned new tools, new interfaces, and the rabbit hole took me past most major parts of Istio.
+Today I&amp;rsquo;ll recreate that debugging session live, to show you the mental models and techniques I used to methodically follow this issue through a complex distributed system.</description>
+    </item>
     
     <item>
       <title>Service Mesh Kickstarter with Istio</title>
