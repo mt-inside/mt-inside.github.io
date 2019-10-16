@@ -54,18 +54,6 @@ Abstract Istio is a service mesh for Kubernetes that offers advanced networking 
     </item>
     
     <item>
-      <title>Do You Need A Service Mesh?</title>
-      <link>https://mt165.co.uk/speech/do-you-need-a-service-mesh-techcon/</link>
-      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://mt165.co.uk/speech/do-you-need-a-service-mesh-techcon/</guid>
-      <description>Session Information Conference Link
-Abstract The network is back. But is it useful?
-We&amp;rsquo;ll explore what a service mesh is and what they can do for your microservice web backends. Are the claims of observability, resiliency, and WAF features real? Are they useful during development, production, or both? Using pictures and demos, we&amp;rsquo;ll find out!
-This session will also briefly cover how a service mesh works, giving us a mental model with which to explore and evaluate after the talk.</description>
-    </item>
-    
-    <item>
       <title>Service Mesh Kickstarter with Istio</title>
       <link>https://mt165.co.uk/speech/istio-workshop-qcon-ny-19/</link>
       <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
